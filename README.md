@@ -1,7 +1,7 @@
 # WebAgent-R1
 [WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2505.16421)
 
-> Note: We are currently cleaning up the codebase and plan to release it publicly after completing the internal review.
+> **[07/22/2025 Update]** We've built a Docker image for smoothly reproducing our results and plan to release it publicly after the review process.
 
 ## WeArena-Lite Benchmark
 
