@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Gather details of products from the popular items report spanning from December 17, 2022, to December 18, 2022, with a period set to a year.",
+  "sites": [
+    "shopping_admin"
+  ],
+  "start_url": "http://10.189.112.188:8083/admin",
+  "task_id": 1028,
+  "storage_state": "./.auth/shopping_admin_state.json"
+}

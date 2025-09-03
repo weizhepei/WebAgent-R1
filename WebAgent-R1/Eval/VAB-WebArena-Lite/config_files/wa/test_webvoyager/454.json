@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Search for the cheapest round-trip flights from Bangkok to Madrid, leaving on February 26, 2024, and returning on February 28, 2024, and provide options under $1000.",
+  "sites": [
+    "Google Flights"
+  ],
+  "start_url": "https://www.google.com/travel/flights/",
+  "task_id": "Google Flights--26",
+  "storage_state": "./.auth/Google Flights_state.json"
+}

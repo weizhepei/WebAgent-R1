@@ -1,0 +1,7 @@
+definition:
+  import: tasks/task_assembly.yaml
+
+start:
+  # css: 1
+  # omnigibson: 2
+  minecraft: 4

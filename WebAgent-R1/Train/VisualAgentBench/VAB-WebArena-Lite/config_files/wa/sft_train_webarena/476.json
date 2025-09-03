@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Propose a merge for the branch 'github/fork/davepgreene/add-verification-function' of a11y-webring.club into the main branch, and mark byteblaze as the reviewer.",
+  "sites": [
+    "gitlab"
+  ],
+  "start_url": "http://10.189.112.188:9001",
+  "task_id": 476,
+  "storage_state": "./.auth/gitlab_state.json"
+}

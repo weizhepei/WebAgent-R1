@@ -1,0 +1,28 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Display the list of issues in the {{repo}} repository that have labels related to {{label}}",
+  "instantiation_dict": {
+    "label": "BUG",
+    "repo": "umano/AndroidSlidingUpPanel"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:9001/umano/AndroidSlidingUpPanel/-/issues/?label_name%5B%5D=BUG",
+    "program_html": [],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 349,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 80,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Display the list of issues in the umano/AndroidSlidingUpPanel repository that have labels related to BUG",
+  "old_task_id": 106
+}

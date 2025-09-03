@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Dislike the submission discussing India's upcoming human space flight initiative, authored by Gari_305, which is the last entry in the top 8 most commented posts in the subreddit Futurology.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 422,
+  "storage_state": "./.auth/reddit_state.json"
+}

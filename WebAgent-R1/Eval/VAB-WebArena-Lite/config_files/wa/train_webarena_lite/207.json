@@ -1,0 +1,28 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Show me products under ${{price}} in \"{{product_category}}\" category",
+  "instantiation_dict": {
+    "price": "199",
+    "product_category": "furtiture with accent"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8082/home-kitchen/furniture/accent-furniture.html?price=0-199",
+    "program_html": [],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 139,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 207,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "Show me products under $199 in \"furtiture with accent\" category",
+  "old_task_id": 273
+}

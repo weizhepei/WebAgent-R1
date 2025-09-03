@@ -1,0 +1,32 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "How much I spend {{time}} on shopping at One Stop Market?",
+  "instantiation_dict": {
+    "time": "in July 2022"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "40.16"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "40.16"
+  },
+  "intent_template_id": 147,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 253,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "How much I spend in July 2022 on shopping at One Stop Market?",
+  "old_task_id": 331
+}

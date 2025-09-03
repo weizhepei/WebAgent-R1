@@ -1,0 +1,48 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Create a new {{scope}} project \"llm_bulk_inference\" and add {{account_list}} as members",
+  "instantiation_dict": {
+    "scope": "private",
+    "account_list": "primer, convexegg, abishek"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/llm_bulk_inference",
+        "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+        "required_contents": {
+          "must_include": [
+            "Private"
+          ]
+        }
+      },
+      {
+        "url": "http://localhost:9001/byteblaze/llm_bulk_inference/-/project_members",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "@primer",
+            "@convexegg",
+            "@abisubramanya27"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 332,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 589,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Create a new private project \"llm_bulk_inference\" and add primer, convexegg, abishek as members",
+  "old_task_id": 746
+}

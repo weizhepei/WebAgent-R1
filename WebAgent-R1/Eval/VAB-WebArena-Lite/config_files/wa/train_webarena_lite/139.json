@@ -1,0 +1,34 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Give me the {{Attribute}} of the products that have {{N}} units left",
+  "instantiation_dict": {
+    "Attribute": "brand",
+    "N": "3"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "Eos",
+        "Minerva"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Eos, Minerva"
+  },
+  "intent_template_id": 368,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 139,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Give me the brand of the products that have 3 units left",
+  "old_task_id": 185
+}

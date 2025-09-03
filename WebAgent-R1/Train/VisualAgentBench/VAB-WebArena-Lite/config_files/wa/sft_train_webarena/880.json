@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Head over to a forum where shutterbugs and wildlife lovers gather, and share my awe-inspiring photo with the title 'The Epic Battle: Blue Jay vs Bald Eagle'. Accompany it with an engaging narrative that says, 'Dive into the remarkable clash of feathered titans captured in this image, showcasing the raw beauty and variety of the natural world.'",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 880,
+  "storage_state": "./.auth/reddit_state.json"
+}

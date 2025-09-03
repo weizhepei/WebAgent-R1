@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Could you compare the travel distances between Putnam Cottage and Thunder Hole for me? I'm curious about the variations when walking, driving, or biking. What's the distance from Putnam Cottage to Thunder Hole if I go by foot, take a car, or ride a bicycle?",
+  "sites": [
+    "map"
+  ],
+  "start_url": "http://10.189.112.188:443",
+  "task_id": 230,
+  "storage_state": null
+}

@@ -1,0 +1,32 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Tell me the total cost of my latest {{status}} order?",
+  "instantiation_dict": {
+    "status": "processing"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "N/A"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "There is no order of \"processing\" status",
+    "reference_answer_raw_annotation": "There is no order of \"processing\" status"
+  },
+  "intent_template_id": 214,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 144,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "Tell me the total cost of my latest processing order?",
+  "old_task_id": 191
+}

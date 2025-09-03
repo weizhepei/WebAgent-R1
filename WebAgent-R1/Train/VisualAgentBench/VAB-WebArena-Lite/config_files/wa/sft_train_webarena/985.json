@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate the 10th post in the 'most_commented and all' section of the EarthPorn category, and in the comment section, express your admiration by writing: 'Wow, what a stunning capture of the aurora over Alaska! The colors are so vivid and the detail is incredible. It must have been a breathtaking experience to witness this in person.' This task involves first identifying the specified post and then providing a pre-determined comment to contribute to the discussion.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 985,
+  "storage_state": "./.auth/reddit_state.json"
+}

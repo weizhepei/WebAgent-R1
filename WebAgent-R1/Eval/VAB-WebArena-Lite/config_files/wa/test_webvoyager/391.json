@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Find a popular JavaScript repository created in the last 30 days on GitHub with a Readme file.",
+  "sites": [
+    "GitHub"
+  ],
+  "start_url": "https://github.com/",
+  "task_id": "GitHub--4",
+  "storage_state": "./.auth/GitHub_state.json"
+}

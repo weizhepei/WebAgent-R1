@@ -1,0 +1,38 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Assign the issue regarding {{issue}} in {{repo}} to {{account}}.",
+  "instantiation_dict": {
+    "repo": "a11yproject",
+    "issue": "404",
+    "account": "Roshanjossey"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/dashboard/issues?scope=all&state=opened&assignee_username=Roshanjossey",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "404s, bad host, timeouts, bad urls for URLs linked from website"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 999,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 341,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Assign the issue regarding 404 in a11yproject to Roshanjossey.",
+  "old_task_id": 446
+}

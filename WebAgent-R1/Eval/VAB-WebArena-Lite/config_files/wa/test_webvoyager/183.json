@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Find out how many teams are in the Scottish Premiership of the Football Tournament and when did the Hibernian team's most recent match start?",
+  "sites": [
+    "BBC News"
+  ],
+  "start_url": "https://www.bbc.com/news/",
+  "task_id": "BBC News--11",
+  "storage_state": "./.auth/BBC News_state.json"
+}

@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Look for a hotel in Paris with a user rating of 9 or higher and available for a 5-night stay starting January 15, 2024. The hotel should also offer free Wi-Fi and breakfast included in the price. Provide the name, location, and price per night.",
+  "sites": [
+    "Booking"
+  ],
+  "start_url": "https://www.booking.com/",
+  "task_id": "Booking--16",
+  "storage_state": "./.auth/Booking_state.json"
+}

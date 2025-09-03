@@ -1,0 +1,33 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "What's the closest national park to {{city}}?",
+  "instantiation_dict": {
+    "city": "the largest city in Maine"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "Acadia National Park"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Acadia National Park"
+  },
+  "intent_template_id": 85,
+  "sites": [
+    "wikipedia",
+    "map"
+  ],
+  "task_id": 202,
+  "storage_state": null,
+  "start_url": "http://localhost:9003",
+  "intent": "What's the closest national park to the largest city in Maine?",
+  "old_task_id": 266
+}

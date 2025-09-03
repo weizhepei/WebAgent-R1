@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "I need to drive from High Peaks Wilderness to Maid of the Mist and I'm wondering if it's a short trip. Is the driving distance less than 30 kilometers?",
+  "sites": [
+    "map"
+  ],
+  "start_url": "http://10.189.112.188:443",
+  "task_id": 595,
+  "storage_state": null
+}

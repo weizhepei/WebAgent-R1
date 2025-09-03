@@ -1,0 +1,35 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "{{action}} the price of this product by {{amount}}",
+  "instantiation_dict": {
+    "amount": "15%",
+    "action": "Increase"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8083/admin/catalog/product/edit/id/996/",
+        "locator": "document.querySelector('[name=\"product[price]\"').value",
+        "required_contents": {
+          "exact_match": "36.80"
+        }
+      }
+    ]
+  },
+  "intent_template_id": 247,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 355,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin/catalog/product/edit/id/996/",
+  "intent": "Increase the price of this product by 15%",
+  "old_task_id": 463
+}

@@ -1,0 +1,38 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Post \"{{content}}\" for the merge request related to {{mr}} in {{repo}} project",
+  "instantiation_dict": {
+    "mr": "octovisuals page",
+    "repo": "primer/design",
+    "content": "Thanks, working on reviews"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:9001/primer/design/-/merge_requests/450",
+    "program_html": [
+      {
+        "url": "last",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "Thanks, working on reviews"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 348,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 293,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Post \"Thanks, working on reviews\" for the merge request related to octovisuals page in primer/design project",
+  "old_task_id": 389
+}

@@ -1,0 +1,36 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Update the description of {{product}} to highlight the real user positive reviews by quoting the comments",
+  "instantiation_dict": {
+    "product": "Lucia Cross-Fit Bra"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8083/admin/../affirm-water-bottle.html",
+        "locator": "document.querySelector('.data.item.content').outerText + (document.querySelector('.product.attribute.overview [itemprop=\"description\"]')?.outerText || '')",
+        "required_contents": {
+          "must_include": [
+            "Wide mouth opening makes it easy to clean"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 251,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 420,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Update the description of Lucia Cross-Fit Bra to highlight the real user positive reviews by quoting the comments",
+  "old_task_id": 546
+}

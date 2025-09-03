@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Find a round trip from Phoenix to Miami (Dec. 25th - Dec. 28th), show the First Class plane tickets for me that do not exceed $1320..",
+  "sites": [
+    "Google Flights"
+  ],
+  "start_url": "https://www.google.com/travel/flights/",
+  "task_id": "Google Flights--7",
+  "storage_state": "./.auth/Google Flights_state.json"
+}

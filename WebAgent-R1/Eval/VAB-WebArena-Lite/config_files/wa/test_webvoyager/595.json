@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "What is the current Text-to-3D model with the highest number of downloads and tell me are there Spaces that use the model.",
+  "sites": [
+    "Huggingface"
+  ],
+  "start_url": "https://huggingface.co/",
+  "task_id": "Huggingface--41",
+  "storage_state": "./.auth/Huggingface_state.json"
+}

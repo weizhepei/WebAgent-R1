@@ -1,0 +1,38 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Follow {{account_list}} on Gitlab",
+  "instantiation_dict": {
+    "account_list": "['ghost', 'R1kk3r', 'Abishek']"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/users/byteblaze/following",
+        "locator": "document.querySelector('.user-profile').outerText",
+        "required_contents": {
+          "must_include": [
+            "@lahwaacz",
+            "@R1kk3r",
+            "@abisubramanya27"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 330,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 411,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Follow ['ghost', 'R1kk3r', 'Abishek'] on Gitlab",
+  "old_task_id": 536
+}

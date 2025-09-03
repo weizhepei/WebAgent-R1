@@ -1,0 +1,41 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Presents the monthly count of successful orders {{period}} in MM:COUNT format",
+  "instantiation_dict": {
+    "period": "from Feb to Nov 2022"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "02:16",
+        "03:14",
+        "04:7",
+        "05:8",
+        "06:13",
+        "07:9",
+        "08:8",
+        "09:10",
+        "10:4",
+        "11:5"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Feburary: 16 orders March: 14 orders April: 7 orders May: 8 orders June: 13 orders July: 9 orders August: 8 orders Sepetember: 10 orders Octorbor: 4 orders November: 5 orders  "
+  },
+  "intent_template_id": 270,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 84,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Presents the monthly count of successful orders from Feb to Nov 2022 in MM:COUNT format",
+  "old_task_id": 111
+}

@@ -1,0 +1,46 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Create a new {{scope}} project \"AutoAGI\" and add {{account_list}} as members",
+  "instantiation_dict": {
+    "scope": "public",
+    "account_list": "primer"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/AutoAGI",
+        "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+        "required_contents": {
+          "must_include": [
+            "public"
+          ]
+        }
+      },
+      {
+        "url": "http://localhost:9001/byteblaze/AutoAGI/-/project_members",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "@primer"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 332,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 588,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Create a new public project \"AutoAGI\" and add primer as members",
+  "old_task_id": 744
+}

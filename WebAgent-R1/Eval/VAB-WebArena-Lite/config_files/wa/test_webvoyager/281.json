@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Find the US English pronunciation of the word \"meticulous\" using the Cambridge Dictionary and note the International Phonetic Alphabet (IPA) notation, then find one example sentence provided in the dictionary using this word.",
+  "sites": [
+    "Cambridge Dictionary"
+  ],
+  "start_url": "https://dictionary.cambridge.org/",
+  "task_id": "Cambridge Dictionary--23",
+  "storage_state": "./.auth/Cambridge Dictionary_state.json"
+}

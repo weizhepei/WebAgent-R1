@@ -1,0 +1,40 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Show me the name of the customers who have expressed dissatisfaction with {{product}}?",
+  "instantiation_dict": {
+    "product": "tanks products"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "Alexander",
+        "Carma",
+        "Dominic",
+        "Merrie",
+        "Monroe",
+        "Scotty",
+        "Shaunte",
+        "Teofila",
+        "Valorie"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Alexander, Carma, Dominic, Merrie, Monroe, Scotty, Shaunte, Teofila, Valorie"
+  },
+  "intent_template_id": 245,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 88,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Show me the name of the customers who have expressed dissatisfaction with tanks products?",
+  "old_task_id": 116
+}

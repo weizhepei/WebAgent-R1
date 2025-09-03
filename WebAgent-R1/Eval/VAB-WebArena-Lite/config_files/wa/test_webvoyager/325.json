@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate an online course on Coursera related to 'Sustainability' that belongs to Physical Science and Engineering subject. The course should include a module on Measuring Sustainability. Note the course duration and the offering institution.",
+  "sites": [
+    "Coursera"
+  ],
+  "start_url": "https://www.coursera.org/",
+  "task_id": "Coursera--24",
+  "storage_state": "./.auth/Coursera_state.json"
+}

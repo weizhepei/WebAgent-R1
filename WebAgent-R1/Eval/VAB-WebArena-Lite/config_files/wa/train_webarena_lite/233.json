@@ -1,0 +1,33 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "How many commits did {{user}} make {{period}}?",
+  "instantiation_dict": {
+    "user": "Anthony",
+    "period": "between 08/2022-09/2022"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "0"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "0"
+  },
+  "intent_template_id": 321,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 233,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001/a11yproject/a11yproject.com",
+  "intent": "How many commits did Anthony make between 08/2022-09/2022?",
+  "old_task_id": 306
+}

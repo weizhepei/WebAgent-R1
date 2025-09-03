@@ -1,0 +1,32 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Who else have access to my repo {{repo}}, show me their usernames",
+  "instantiation_dict": {
+    "repo": "prism-theme"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "abisubramanya27"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Abishek S, abisubramanya27"
+  },
+  "intent_template_id": 298,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 268,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Who else have access to my repo prism-theme, show me their usernames",
+  "old_task_id": 350
+}

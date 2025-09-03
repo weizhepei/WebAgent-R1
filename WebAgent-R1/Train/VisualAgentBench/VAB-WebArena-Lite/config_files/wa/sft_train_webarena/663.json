@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Dislike the submission discussing the creation of a massive dual GPU by Nvidia for powering models similar to ChatGPT, authored by MicroSofty88, listed as the 10th new post in the gadgets subreddit.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 663,
+  "storage_state": "./.auth/reddit_state.json"
+}

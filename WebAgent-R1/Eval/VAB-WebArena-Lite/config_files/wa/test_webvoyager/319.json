@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Identify a Coursera course that teaches JavaScript, which is beginner-friendly and includes a certificate upon completion.",
+  "sites": [
+    "Coursera"
+  ],
+  "start_url": "https://www.coursera.org/",
+  "task_id": "Coursera--18",
+  "storage_state": "./.auth/Coursera_state.json"
+}

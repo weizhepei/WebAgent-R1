@@ -1,0 +1,27 @@
+{
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 226,
+  "require_login": true,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "geolocation": null,
+  "intent_template": "Show the most recent {{status}} order",
+  "instantiation_dict": {
+    "status": "completed"
+  },
+  "intent": "Show the most recent completed order",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://localhost:8082/sales/order/view/order_id/180/",
+    "program_html": [],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 180,
+  "old_task_id": 298
+}

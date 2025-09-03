@@ -1,0 +1,46 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Thumbs down the top {{k}} post ever in {{subreddit}}.",
+  "instantiation_dict": {
+    "subreddit": "history",
+    "k": "2"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8080/f/history/84338/the-scientist-who-discovered-sperm-was-so-grossed-out-he",
+        "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
+        "required_contents": {
+          "must_include": [
+            "vote vote--user-downvoted"
+          ]
+        }
+      },
+      {
+        "url": "http://localhost:8080/f/history/105990/4-500-year-old-sumerian-temple-dedicated-to-mighty-thunder",
+        "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
+        "required_contents": {
+          "must_include": [
+            "vote vote--user-downvoted"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 24,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 563,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080",
+  "intent": "Thumbs down the top 2 post ever in history.",
+  "old_task_id": 715
+}

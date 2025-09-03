@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Find the most recently updated open-source project related to natural language processing on the Huggingface platform. Provide the project's name, creator, and a brief description of its functionality.",
+  "sites": [
+    "Huggingface"
+  ],
+  "start_url": "https://huggingface.co/",
+  "task_id": "Huggingface--17",
+  "storage_state": "./.auth/Huggingface_state.json"
+}

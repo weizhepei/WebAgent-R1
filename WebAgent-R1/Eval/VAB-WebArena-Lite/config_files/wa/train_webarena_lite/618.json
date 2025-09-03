@@ -1,0 +1,50 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "{{action}} the price of {{config}} by {{amount}}",
+  "instantiation_dict": {
+    "amount": "15%",
+    "action": "Reduce",
+    "config": "yellow shirts from Gwyn Endurance in all size below L"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8083/admin/catalog/product/edit/id/1559/",
+        "locator": "document.querySelector('[name=\"product[price]\"').value",
+        "required_contents": {
+          "exact_match": "20.40"
+        }
+      },
+      {
+        "url": "http://localhost:8083/admin/catalog/product/edit/id/1562/",
+        "locator": "document.querySelector('[name=\"product[price]\"').value",
+        "required_contents": {
+          "exact_match": "20.40"
+        }
+      },
+      {
+        "url": "http://localhost:8083/admin/catalog/product/edit/id/1565/",
+        "locator": "document.querySelector('[name=\"product[price]\"').value",
+        "required_contents": {
+          "exact_match": "20.40"
+        }
+      }
+    ]
+  },
+  "intent_template_id": 742,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 618,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Reduce the price of yellow shirts from Gwyn Endurance in all size below L by 15%",
+  "old_task_id": 779
+}

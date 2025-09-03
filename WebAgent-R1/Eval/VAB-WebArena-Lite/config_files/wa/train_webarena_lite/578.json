@@ -1,0 +1,35 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Edit my post on {{post}} by adding a line to the body that says \"{{content}}\"",
+  "instantiation_dict": {
+    "post": "The Night Agent",
+    "content": "Done watching, pretty cool!"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8080/f/television/134868/the-night-agent-renewed-for-season-2-at-netflix",
+        "locator": "document.querySelector('.submission__body').outerText",
+        "required_contents": {
+          "exact_match": "Done watching, pretty cool!"
+        }
+      }
+    ]
+  },
+  "intent_template_id": 27,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 578,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080",
+  "intent": "Edit my post on The Night Agent by adding a line to the body that says \"Done watching, pretty cool!\"",
+  "old_task_id": 732
+}

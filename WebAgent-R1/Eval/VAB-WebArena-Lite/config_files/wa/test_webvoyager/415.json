@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Identify the most starred JavaScript repositories on GitHub that were created after 2023-12-29.",
+  "sites": [
+    "GitHub"
+  ],
+  "start_url": "https://github.com/",
+  "task_id": "GitHub--28",
+  "storage_state": "./.auth/GitHub_state.json"
+}

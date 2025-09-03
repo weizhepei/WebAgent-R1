@@ -1,0 +1,40 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "create a repository named {{name}} that includes a README file with the links to the most active {{num}} DIY ideas on DIY subreddit?",
+  "instantiation_dict": {
+    "name": "live_a_life",
+    "num": "3"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/live_a_life/-/raw/main/README.md",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "http://localhost:8080/f/DIY/118903/separate-glued-plastic-parts",
+            "http://localhost:8080/f/DIY/118923/how-would-you-fix-this-dryer-vent-mess",
+            "http://localhost:8080/f/DIY/118935/basement-bulkhead-soffit-wall-framing"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 88,
+  "sites": [
+    "gitlab",
+    "reddit"
+  ],
+  "task_id": 437,
+  "storage_state": null,
+  "start_url": "http://localhost:9001",
+  "intent": "create a repository named live_a_life that includes a README file with the links to the most active 3 DIY ideas on DIY subreddit?",
+  "old_task_id": 564
+}

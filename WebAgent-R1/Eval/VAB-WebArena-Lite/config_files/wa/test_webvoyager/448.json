@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Book a round-trip flight from San Francisco to Berlin, departing on March 5, 2024, and returning on March 12, 2024, and find the option with the shortest total travel time.",
+  "sites": [
+    "Google Flights"
+  ],
+  "start_url": "https://www.google.com/travel/flights/",
+  "task_id": "Google Flights--20",
+  "storage_state": "./.auth/Google Flights_state.json"
+}

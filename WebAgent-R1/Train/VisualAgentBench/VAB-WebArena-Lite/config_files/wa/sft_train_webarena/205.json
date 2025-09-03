@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Head over to a forum frequented by video game aficionados and kick off a spirited debate with my post titled 'Console Showdown: Choosing the Best System for the Ultimate Gaming Experience'. I'm looking to draw in a crowd of both weekend warriors and hardcore gamers to share their two cents on which gaming console takes the crown, sparking a conversation about what truly makes for an unparalleled gaming journey.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 205,
+  "storage_state": "./.auth/reddit_state.json"
+}

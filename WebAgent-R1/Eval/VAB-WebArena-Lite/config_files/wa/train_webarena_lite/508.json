@@ -1,0 +1,39 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Post in {{subreddit}} subreddit about what could diffusion model help the corresponding field.",
+  "instantiation_dict": {
+    "subreddit": "history"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8080/f/history",
+    "program_html": [
+      {
+        "url": "func:reddit_get_post_url('__last_url__')",
+        "locator": "document.querySelector('.submission__inner').outerText",
+        "required_contents": {
+          "fuzzy_match": [
+            "diffusion model",
+            "help"
+          ]
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 19,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 508,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080",
+  "intent": "Post in history subreddit about what could diffusion model help the corresponding field.",
+  "old_task_id": 649
+}

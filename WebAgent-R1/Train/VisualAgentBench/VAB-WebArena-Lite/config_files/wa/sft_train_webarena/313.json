@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate the 10th post within the highlighted 'hot' section of the 'creepy' category, and leave a comment on it, expressing your admiration by saying, '\"Incredible artwork by Adrian Borda. 'Facing Myself' really speaks to the journey of self-discovery and introspection. The attention to detail is mind-blowing!\" This comment should be shared directly on the post to contribute to the discussion and highlight the artwork's impact.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 313,
+  "storage_state": "./.auth/reddit_state.json"
+}

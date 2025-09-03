@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Post a review of the article \"German scientists show a commercially feasible method for cyanobacteria to extract 17 rare earth elements from low-concentration sources\" in the r/Futurology with my comment \"This could change the geopolitical landscape of rare earth elements!\".",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 29,
+  "storage_state": "./.auth/reddit_state.json"
+}

@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Show me the list of baby products that are on sale and under 10 dollars on Amazon. Provide at least 2 on sale products",
+  "sites": [
+    "Amazon"
+  ],
+  "start_url": "https://www.amazon.com/",
+  "task_id": "Amazon--17",
+  "storage_state": "./.auth/Amazon_state.json"
+}

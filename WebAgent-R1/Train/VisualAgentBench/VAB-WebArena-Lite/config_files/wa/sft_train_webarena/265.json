@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "I'm planning to journey from New York State Capitol to Funland and I'm considering different modes of transport like biking, walking, and driving. Could you inform me of the travel times for each method?",
+  "sites": [
+    "map"
+  ],
+  "start_url": "http://10.189.112.188:443",
+  "task_id": 265,
+  "storage_state": null
+}

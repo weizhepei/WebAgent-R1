@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Currently situated in Prescott Park, I'm trying to figure out how much time it would take to reach Camden Harbor if I were to travel by bike or on foot. Could you provide the time estimates for both modes of transportation?",
+  "sites": [
+    "map"
+  ],
+  "start_url": "http://10.189.112.188:443",
+  "task_id": 902,
+  "storage_state": null
+}

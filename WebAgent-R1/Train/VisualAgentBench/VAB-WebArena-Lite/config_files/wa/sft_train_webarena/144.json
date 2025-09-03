@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Currently residing in Avalon History Center in the heart of the city, I'm looking to visit the nearest Hotel. Could you inform me of the exact distance? I'm interested in figuring out the travel duration from Avalon History Center in the heart of the city to the closest Hotel.",
+  "sites": [
+    "map"
+  ],
+  "start_url": "http://10.189.112.188:443",
+  "task_id": 144,
+  "storage_state": null
+}

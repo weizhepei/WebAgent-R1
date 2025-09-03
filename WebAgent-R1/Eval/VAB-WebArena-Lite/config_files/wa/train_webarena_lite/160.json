@@ -1,0 +1,33 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Find the customer name and email with phone number {{PhoneNum}}",
+  "instantiation_dict": {
+    "PhoneNum": "2065555555"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "Adam Garcia",
+        "gamingpro456@gmail.com"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Adam Garcia, gamingpro456@gmail.com"
+  },
+  "intent_template_id": 364,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 160,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Find the customer name and email with phone number 2065555555",
+  "old_task_id": 210
+}

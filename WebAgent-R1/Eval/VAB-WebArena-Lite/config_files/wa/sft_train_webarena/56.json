@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Could you help me figure out how far it is from Dock Square to Bruce Museum when I'm riding a bike versus driving a car? I'm currently at Dock Square and am trying to determine the most efficient way to reach Bruce Museum. Can you compare the distances for traveling by bicycle and by car for me?",
+  "sites": [
+    "map"
+  ],
+  "start_url": "http://10.189.112.188:443",
+  "task_id": 56,
+  "storage_state": null
+}

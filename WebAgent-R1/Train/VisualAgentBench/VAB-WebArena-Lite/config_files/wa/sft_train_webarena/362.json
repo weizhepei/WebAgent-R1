@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate the 7th post in the 'hot' subset of the providence category, and leave a comment expressing your admiration by saying, 'That's an awe-inspiring view of Providence from the air! It looks even more breathtaking at night with all the lights glowing. Makes me want to book a night flight just to witness this beauty again.' Ensure your comment is addressed to the poster of the identified post to maintain the conversational link between the task of finding the post and the subsequent action of commenting on it.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 362,
+  "storage_state": "./.auth/reddit_state.json"
+}

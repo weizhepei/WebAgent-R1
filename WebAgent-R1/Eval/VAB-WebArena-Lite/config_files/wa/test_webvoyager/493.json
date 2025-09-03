@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Determine the shortest walking route from The Metropolitan Museum of Art to Times Square in New York.",
+  "sites": [
+    "Google Map"
+  ],
+  "start_url": "https://www.google.com/maps/",
+  "task_id": "Google Map--23",
+  "storage_state": "./.auth/Google Map_state.json"
+}

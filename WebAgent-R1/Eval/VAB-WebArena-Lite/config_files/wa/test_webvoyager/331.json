@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate the course 'Modern Art & Ideas' on Coursera offered by The Museum of Modern Art. Find out the percentage (rounded) of 3-star ratings in the reviews and note which star level has the lowest percentage.",
+  "sites": [
+    "Coursera"
+  ],
+  "start_url": "https://www.coursera.org/",
+  "task_id": "Coursera--30",
+  "storage_state": "./.auth/Coursera_state.json"
+}

@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Draft an email to the shop owner via their contact us function for a coupon as {{reason}}",
+  "instantiation_dict": {
+    "reason": "they promised me a coupon last time"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8082/contact/index/",
+    "program_html": [],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 163,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 542,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "Draft an email to the shop owner via their contact us function for a coupon as they promised me a coupon last time",
+  "old_task_id": 690
+}

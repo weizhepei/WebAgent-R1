@@ -1,0 +1,35 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "List the {{attribute}} of the top 3 contributors to {{repo}} repo, ranked by the number of commits?",
+  "instantiation_dict": {
+    "repo": "prime/design",
+    "attribute": "name"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "Shawn Allen",
+        "Inayaili Le\u00f3n",
+        "Aurora Pleguezuelo"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Shawn Allen, Inayaili Le\u00f3n, Aurora Pleguezuelo"
+  },
+  "intent_template_id": 324,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 239,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "List the name of the top 3 contributors to prime/design repo, ranked by the number of commits?",
+  "old_task_id": 314
+}

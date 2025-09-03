@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate the poster that describes the 'Website that automatically colorizes old black-and-white photos', and comment on it with the following message: 'This is an amazing concept! I can't wait to see the website bringing old black-and-white photos back to life with color. It's like time-traveling with a touch of magic.' This task involves searching for the specific poster and providing your viewpoint as a comment to engage with the content presented.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 76,
+  "storage_state": "./.auth/reddit_state.json"
+}

@@ -1,0 +1,46 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Like all submissions created by {{user}} in subreddit {{subreddit}}",
+  "instantiation_dict": {
+    "subreddit": "wallstreetbets",
+    "user": "ThetaGang_wsb"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8080/f/wallstreetbets/29478/how-will-airbnb-close-following-their-earnings-report-on",
+        "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
+        "required_contents": {
+          "must_include": [
+            "vote vote--user-upvoted"
+          ]
+        }
+      },
+      {
+        "url": "http://localhost:8080/f/wallstreetbets/29458/how-much-will-the-federal-reserve-raise-interest-rates-in",
+        "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
+        "required_contents": {
+          "must_include": [
+            "vote vote--user-upvoted"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 25,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 567,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080",
+  "intent": "Like all submissions created by ThetaGang_wsb in subreddit wallstreetbets",
+  "old_task_id": 719
+}

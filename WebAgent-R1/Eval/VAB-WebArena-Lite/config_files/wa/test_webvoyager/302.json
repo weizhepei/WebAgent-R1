@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Search for a beginner-level online course about Python programming, suitable for someone who has no programming experience on Coursera.",
+  "sites": [
+    "Coursera"
+  ],
+  "start_url": "https://www.coursera.org/",
+  "task_id": "Coursera--1",
+  "storage_state": "./.auth/Coursera_state.json"
+}

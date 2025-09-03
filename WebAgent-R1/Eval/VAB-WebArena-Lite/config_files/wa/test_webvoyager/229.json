@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Find the highest-rated luxury hotel in Rome available for booking from January 10, 2024, to January 20, 2024, for 2 adults. Include the cost, amenities offered, and customer rating.",
+  "sites": [
+    "Booking"
+  ],
+  "start_url": "https://www.booking.com/",
+  "task_id": "Booking--15",
+  "storage_state": "./.auth/Booking_state.json"
+}

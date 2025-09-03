@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Launch a new forum section called 'OutdoorOdyssey' dedicated to the thrill-seekers and nature lovers. The description should read: Dive into the ultimate guide to outdoor adventures, encompassing everything from serene hikes to exhilarating camping trips. For the sidebar, include the following tags: [outdoor, adventure, hiking, camping].",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 71,
+  "storage_state": "./.auth/reddit_state.json"
+}

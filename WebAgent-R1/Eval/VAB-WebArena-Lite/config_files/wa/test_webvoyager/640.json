@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "A polyominoes of order 6 means you have 6 identical squares to combine different shapes (2-sided). How many combinations are there? Looking at all the shapes in the result, how many of them have only 2 rows in total?",
+  "sites": [
+    "Wolfram Alpha"
+  ],
+  "start_url": "https://www.wolframalpha.com/",
+  "task_id": "Wolfram Alpha--43",
+  "storage_state": "./.auth/Wolfram Alpha_state.json"
+}

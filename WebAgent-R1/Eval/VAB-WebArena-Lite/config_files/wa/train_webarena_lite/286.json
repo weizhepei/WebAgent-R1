@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Preview the {{name}} theme for my shop",
+  "instantiation_dict": {
+    "name": "Magento Luma"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8083/admin/admin/system_design_theme/edit/id/3/key/",
+    "program_html": [],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 266,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 286,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Preview the Magento Luma theme for my shop",
+  "old_task_id": 375
+}

@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Could you help me figure out how far it is from Watkins Glen International Raceway to The Towers, Narragansett if I travel by bike or car? I'm currently staying at Watkins Glen International Raceway and I'm curious about the travel distance to The Towers, Narragansett for both cycling and driving. Can you provide me with the distances for each mode of transportation, Bicycle and Car, from Watkins Glen International Raceway to The Towers, Narragansett?",
+  "sites": [
+    "map"
+  ],
+  "start_url": "http://10.189.112.188:443",
+  "task_id": 1077,
+  "storage_state": null
+}

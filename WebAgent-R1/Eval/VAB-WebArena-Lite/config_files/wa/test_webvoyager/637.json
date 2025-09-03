@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Approximate amount of fat burned by a 28yo, 172cm tall, 70kg woman running for 30min at a pace of 6min/mile.",
+  "sites": [
+    "Wolfram Alpha"
+  ],
+  "start_url": "https://www.wolframalpha.com/",
+  "task_id": "Wolfram Alpha--40",
+  "storage_state": "./.auth/Wolfram Alpha_state.json"
+}

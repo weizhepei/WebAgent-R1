@@ -1,0 +1,36 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Add {{product}} to my wish list",
+  "instantiation_dict": {
+    "product": "DkRgVNY Lace Spcling Lingerie Womens Sexy Hollow Out Underwear Bodysuit One Piece Snap Crotch Clubwear Teddy Bodysuit"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8082/wishlist/",
+        "locator": "document.querySelector('.products-grid.wishlist').outerText",
+        "required_contents": {
+          "fuzzy_match": [
+            "DkRgVNY Lace Spcling Lingerie Womens Sexy Hollow Out Underwear Bodysuit One Piece Snap Crotch Clubwear Teddy Bodysuit"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 186,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 358,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "Add DkRgVNY Lace Spcling Lingerie Womens Sexy Hollow Out Underwear Bodysuit One Piece Snap Crotch Clubwear Teddy Bodysuit to my wish list",
+  "old_task_id": 468
+}

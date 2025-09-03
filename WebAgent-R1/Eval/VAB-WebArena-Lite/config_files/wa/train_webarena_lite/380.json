@@ -1,0 +1,35 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Notify {{name}} in their most recent pending order with message \"{{message}}\"",
+  "instantiation_dict": {
+    "name": "Lily Potter",
+    "message": "Thanks, your order is ready to be shipped!"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8083/admin/sales/order/view/order_id/303/",
+        "locator": "document.querySelector(\"#order_history_block\").querySelector(\".note-list\").firstElementChild.querySelector(\".note-list-comment\").outerText",
+        "required_contents": {
+          "exact_match": "Thanks, your order is ready to be shipped!"
+        }
+      }
+    ]
+  },
+  "intent_template_id": 280,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 380,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Notify Lily Potter in their most recent pending order with message \"Thanks, your order is ready to be shipped!\"",
+  "old_task_id": 495
+}

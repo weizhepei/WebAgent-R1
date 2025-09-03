@@ -1,0 +1,9 @@
+[Config file]: /var/folders/fj/0jq3y9_x1csf_rtf0bs1llzr0000gq/T/tmp_q7m2arm/0.json
+[Unhandled Error] FileNotFoundError(2, 'No such file or directory')
+Traceback (most recent call last):
+  File "/Users/zhepei/projects/VisualAgentBench/VAB-WebArena-Lite/run.py", line 758, in generate_trajectory
+    update_action_history(out_path, task_id, actions=actions)
+  File "/Users/zhepei/projects/VisualAgentBench/VAB-WebArena-Lite/run.py", line 307, in update_action_history
+    json.dump(obj, open(path, "w"), indent=4)
+                   ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'actions/0.json'

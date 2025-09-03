@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Write your reply 'That's a good alternative. Are there any specific hours or days when the Yonkers municipal parking offers better rates or more availability compared to the Broad Street lot? It might be helpful to know for those looking for the most convenient and cost-effective options.' beneath the comment 'There's also municipal parking on the Yonkers side, opposite to Fleetwood plaza.' on the poster.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 285,
+  "storage_state": "./.auth/reddit_state.json"
+}

@@ -1,0 +1,31 @@
+{
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 4,
+  "require_login": true,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "geolocation": null,
+  "intent_template": "What is the top-{{n}} best-selling product type in {{period}}",
+  "instantiation_dict": {
+    "n": 1,
+    "period": "Jan 2023"
+  },
+  "intent": "What is the top-1 best-selling product type in Jan 2023",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "Duffle"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Duffle"
+  },
+  "intent_template_id": 279,
+  "old_task_id": 5
+}

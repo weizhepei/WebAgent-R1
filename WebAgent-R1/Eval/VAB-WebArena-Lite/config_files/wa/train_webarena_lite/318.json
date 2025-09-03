@@ -1,0 +1,36 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Set my gitlab status as {{status}}.",
+  "instantiation_dict": {
+    "status": "Busy"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze",
+        "locator": "document.querySelector('.cover-status').lastChild.textContent",
+        "required_contents": {
+          "must_include": [
+            "Busy"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 361,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 318,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Set my gitlab status as Busy.",
+  "old_task_id": 418
+}

@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Find a beginner-level online course about '3d printing' which lasts 1-3 months, and is provided by a renowned university.",
+  "sites": [
+    "Coursera"
+  ],
+  "start_url": "https://www.coursera.org/",
+  "task_id": "Coursera--0",
+  "storage_state": "./.auth/Coursera_state.json"
+}

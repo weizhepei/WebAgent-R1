@@ -1,0 +1,64 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Thumbs down the top {{k}} post ever in {{subreddit}}.",
+  "instantiation_dict": {
+    "k": "4",
+    "subreddit": "movies"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8080/f/movies/86174/who-will-win-the-oscar-for-actress-in-a-supporting-role",
+        "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
+        "required_contents": {
+          "must_include": [
+            "vote vote--user-downvoted"
+          ]
+        }
+      },
+      {
+        "url": "http://localhost:8080/f/movies/86029/who-will-win-the-oscar-for-film-editing",
+        "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
+        "required_contents": {
+          "must_include": [
+            "vote vote--user-downvoted"
+          ]
+        }
+      },
+      {
+        "url": "http://localhost:8080/f/movies/86055/cindy-williams-dies-laverne-amp-shirley-star-who-appeared-in",
+        "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
+        "required_contents": {
+          "must_include": [
+            "vote vote--user-downvoted"
+          ]
+        }
+      },
+      {
+        "url": "http://localhost:8080/f/movies/42682/michelle-yeoh-to-receive-palm-springs-film-festival-s",
+        "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
+        "required_contents": {
+          "must_include": [
+            "vote vote--user-downvoted"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 24,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 565,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080",
+  "intent": "Thumbs down the top 4 post ever in movies.",
+  "old_task_id": 717
+}

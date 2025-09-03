@@ -1,0 +1,47 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Rate my recent purchase of {{product}} with {{num_star}} stars, using my nickname {{nickname}}?",
+  "instantiation_dict": {
+    "product": "Foundation For Mattress With Frame Set",
+    "num_star": "1",
+    "nickname": "ShoppingEmma"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "last",
+        "locator": "func:shopping_get_sku_latest_review_rating('B07DFJ5XKH')",
+        "required_contents": {
+          "must_include": [
+            "20"
+          ]
+        }
+      },
+      {
+        "url": "last",
+        "locator": "func:shopping_get_sku_latest_review_author('B07DFJ5XKH')",
+        "required_contents": {
+          "must_include": [
+            "ShoppingEmma"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 194,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 456,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "Rate my recent purchase of Foundation For Mattress With Frame Set with 1 stars, using my nickname ShoppingEmma?",
+  "old_task_id": 588
+}

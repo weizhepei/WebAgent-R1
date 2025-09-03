@@ -1,0 +1,33 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "What is the price range of {{product}} in the One Stop Market?",
+  "instantiation_dict": {
+    "product": "Canon photo printer"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "2.56",
+        "649.99"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "$2.56 - $649.99"
+  },
+  "intent_template_id": 159,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 94,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "What is the price range of Canon photo printer in the One Stop Market?",
+  "old_task_id": 126
+}

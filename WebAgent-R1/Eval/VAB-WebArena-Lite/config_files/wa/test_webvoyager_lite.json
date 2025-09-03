@@ -1,0 +1,362 @@
+[
+    {
+        "intent": "Provide a recipe for vegetarian lasagna with more than 100 reviews and a rating of at least 4.5 stars suitable for 6 people.",
+        "sites": [
+            "Allrecipes"
+        ],
+        "start_url": "https://www.allrecipes.com/",
+        "task_id": "Allrecipes--0"
+    },
+    {
+        "intent": "Find a recipe for a vegetarian lasagna that has at least a four-star rating and uses zucchini.",
+        "sites": [
+            "Allrecipes"
+        ],
+        "start_url": "https://www.allrecipes.com/",
+        "task_id": "Allrecipes--1"
+    },
+    {
+        "intent": "Find a recipe for a vegetarian lasagna under 600 calories per serving that has a prep time of less than 1 hour.",
+        "sites": [
+            "Allrecipes"
+        ],
+        "start_url": "https://www.allrecipes.com/",
+        "task_id": "Allrecipes--2"
+    },
+    {
+        "intent": "Search an Xbox Wireless controller with green color and rated above 4 stars.",
+        "sites": [
+            "Amazon"
+        ],
+        "start_url": "https://www.amazon.com/",
+        "task_id": "Amazon--0"
+    },
+    {
+        "intent": "Search for women's golf polos in m size, priced between 50 to 75 dollars, and save the lowest priced among results.",
+        "sites": [
+            "Amazon"
+        ],
+        "start_url": "https://www.amazon.com/",
+        "task_id": "Amazon--1"
+    },
+    {
+        "intent": "Find a gaming desktop with Windows 11 Home, and the disk size should be 1TB.",
+        "sites": [
+            "Amazon"
+        ],
+        "start_url": "https://www.amazon.com/",
+        "task_id": "Amazon--2"
+    },
+    {
+        "intent": "Compare the prices of the latest models of MacBook Air available on Apple's website.",
+        "sites": [
+            "Apple"
+        ],
+        "start_url": "https://www.apple.com/",
+        "task_id": "Apple--0"
+    },
+    {
+        "intent": "Research the new features of the iOS 17 on Apple support and check its compatibility with the iPhone 12.",
+        "sites": [
+            "Apple"
+        ],
+        "start_url": "https://www.apple.com/",
+        "task_id": "Apple--1"
+    },
+    {
+        "intent": "Compare the prices and chips for the iPhone 14 Pro and iPhone 15 Pro models directly from Apple's website.",
+        "sites": [
+            "Apple"
+        ],
+        "start_url": "https://www.apple.com/",
+        "task_id": "Apple--2"
+    },
+    {
+        "intent": "Search for the latest preprints about 'quantum computing'.",
+        "sites": [
+            "ArXiv"
+        ],
+        "start_url": "https://arxiv.org/",
+        "task_id": "ArXiv--0"
+    },
+    {
+        "intent": "Search for the latest research papers on quantum computing submitted to ArXiv within the last two days.",
+        "sites": [
+            "ArXiv"
+        ],
+        "start_url": "https://arxiv.org/",
+        "task_id": "ArXiv--1"
+    },
+    {
+        "intent": "Look up the most recent papers related to 'cs.CL', select one and show its abstract.",
+        "sites": [
+            "ArXiv"
+        ],
+        "start_url": "https://arxiv.org/",
+        "task_id": "ArXiv--2"
+    },
+    {
+        "intent": "Find a report on the BBC News website about recent developments in renewable energy technologies in the UK.",
+        "sites": [
+            "BBC News"
+        ],
+        "start_url": "https://www.bbc.com/news/",
+        "task_id": "BBC News--0"
+    },
+    {
+        "intent": "Read the latest health-related news article published on BBC News and summarize the key points discussed.",
+        "sites": [
+            "BBC News"
+        ],
+        "start_url": "https://www.bbc.com/news/",
+        "task_id": "BBC News--1"
+    },
+    {
+        "intent": "Read the latest article regarding the environmental impacts of deforestation published within the last two days.",
+        "sites": [
+            "BBC News"
+        ],
+        "start_url": "https://www.bbc.com/news/",
+        "task_id": "BBC News--2"
+    },
+    {
+        "intent": "Find a Mexico hotel with deals for December 25-26.",
+        "sites": [
+            "Booking"
+        ],
+        "start_url": "https://www.booking.com/",
+        "task_id": "Booking--0"
+    },
+    {
+        "intent": "Find the cheapest available hotel room for a three night stay from 1st Jan in Jakarta. The room is for 2 adults, just answer the cheapest hotel room and the price.",
+        "sites": [
+            "Booking"
+        ],
+        "start_url": "https://www.booking.com/",
+        "task_id": "Booking--1"
+    },
+    {
+        "intent": "Find a hotel in Ohio From December 20th to December 23th for 3 adults and 2 rooms.",
+        "sites": [
+            "Booking"
+        ],
+        "start_url": "https://www.booking.com/",
+        "task_id": "Booking--2"
+    },
+    {
+        "intent": "Look up the pronunciation and definition of the word \"sustainability\" on the Cambridge Dictionary.",
+        "sites": [
+            "Cambridge Dictionary"
+        ],
+        "start_url": "https://dictionary.cambridge.org/",
+        "task_id": "Cambridge Dictionary--0"
+    },
+    {
+        "intent": "Find the pronunciation, definition, and a sample sentence for the word 'serendipity'.",
+        "sites": [
+            "Cambridge Dictionary"
+        ],
+        "start_url": "https://dictionary.cambridge.org/",
+        "task_id": "Cambridge Dictionary--1"
+    },
+    {
+        "intent": "Look up the pronunciation, definition, and example sentence for the word \"ubiquitous\" in UK and US English.",
+        "sites": [
+            "Cambridge Dictionary"
+        ],
+        "start_url": "https://dictionary.cambridge.org/",
+        "task_id": "Cambridge Dictionary--2"
+    },
+    {
+        "intent": "Find a beginner-level online course about '3d printing' which lasts 1-3 months, and is provided by a renowned university.",
+        "sites": [
+            "Coursera"
+        ],
+        "start_url": "https://www.coursera.org/",
+        "task_id": "Coursera--0"
+    },
+    {
+        "intent": "Search for a beginner-level online course about Python programming, suitable for someone who has no programming experience on Coursera.",
+        "sites": [
+            "Coursera"
+        ],
+        "start_url": "https://www.coursera.org/",
+        "task_id": "Coursera--1"
+    },
+    {
+        "intent": "Find a Beginner's Spanish Specialization on Coursera and show all the courses in this Specialization.",
+        "sites": [
+            "Coursera"
+        ],
+        "start_url": "https://www.coursera.org/",
+        "task_id": "Coursera--2"
+    },
+    {
+        "intent": "Look up the current standings for the NBA Eastern Conference on ESPN.",
+        "sites": [
+            "ESPN"
+        ],
+        "start_url": "https://www.espn.com/",
+        "task_id": "ESPN--0"
+    },
+    {
+        "intent": "Check the latest articles on ESPN for updates on any trades that occurred in the NBA within the past 2 days.",
+        "sites": [
+            "ESPN"
+        ],
+        "start_url": "https://www.espn.com/",
+        "task_id": "ESPN--1"
+    },
+    {
+        "intent": "Show the scores and main highlight of the Milwaukee Bucks game that took place within the last 2 days on ESPN.",
+        "sites": [
+            "ESPN"
+        ],
+        "start_url": "https://www.espn.com/",
+        "task_id": "ESPN--2"
+    },
+    {
+        "intent": "Search for an open-source project related to 'climate change data visualization' on GitHub and report the project with the most stars.",
+        "sites": [
+            "GitHub"
+        ],
+        "start_url": "https://github.com/",
+        "task_id": "GitHub--0"
+    },
+    {
+        "intent": "Search for an open-source repository for machine learning in Python, specifically focused on decision trees, updated within the last 2 days.",
+        "sites": [
+            "GitHub"
+        ],
+        "start_url": "https://github.com/",
+        "task_id": "GitHub--1"
+    },
+    {
+        "intent": "Look for the trending Python repositories on GitHub with most stars.",
+        "sites": [
+            "GitHub"
+        ],
+        "start_url": "https://github.com/",
+        "task_id": "GitHub--2"
+    },
+    {
+        "intent": "Book a journey with return option on same day from Edinburg to Manchester on December 28th and show me the lowest price option available.",
+        "sites": [
+            "Google Flights"
+        ],
+        "start_url": "https://www.google.com/travel/flights/",
+        "task_id": "Google Flights--0"
+    },
+    {
+        "intent": "Show me the list of one-way flights today (February 17, 2024) from Chicago to Paris.",
+        "sites": [
+            "Google Flights"
+        ],
+        "start_url": "https://www.google.com/travel/flights/",
+        "task_id": "Google Flights--1"
+    },
+    {
+        "intent": "Find the lowest fare from all eligible one-way flights for 1 adult from JFK to Heathrow on Jan. 22.",
+        "sites": [
+            "Google Flights"
+        ],
+        "start_url": "https://www.google.com/travel/flights/",
+        "task_id": "Google Flights--2"
+    },
+    {
+        "intent": "Find 5 beauty salons with ratings greater than 4.8 in Seattle, WA.",
+        "sites": [
+            "Google Map"
+        ],
+        "start_url": "https://www.google.com/maps/",
+        "task_id": "Google Map--0"
+    },
+    {
+        "intent": "Tell me one bus stop that is nearest to the intersection of main street and Amherst street in Altavista.",
+        "sites": [
+            "Google Map"
+        ],
+        "start_url": "https://www.google.com/maps/",
+        "task_id": "Google Map--1"
+    },
+    {
+        "intent": "Find Apple Stores close to zip code 90028",
+        "sites": [
+            "Google Map"
+        ],
+        "start_url": "https://www.google.com/maps/",
+        "task_id": "Google Map--2"
+    },
+    {
+        "intent": "Find the initial release date for Guardians of the Galaxy Vol. 3 the movie.",
+        "sites": [
+            "Google Search"
+        ],
+        "start_url": "https://www.google.com/",
+        "task_id": "Google Search--0"
+    },
+    {
+        "intent": "Find Kevin Durant's bio",
+        "sites": [
+            "Google Search"
+        ],
+        "start_url": "https://www.google.com/",
+        "task_id": "Google Search--1"
+    },
+    {
+        "intent": "Search for the latest news title about the NBA team the Los Angeles Lakers.",
+        "sites": [
+            "Google Search"
+        ],
+        "start_url": "https://www.google.com/",
+        "task_id": "Google Search--2"
+    },
+    {
+        "intent": "Find a pre-trained natural language processing model on Hugging Face that can perform sentiment analysis, and make sure the model's last update is within March 2023.",
+        "sites": [
+            "Huggingface"
+        ],
+        "start_url": "https://huggingface.co/",
+        "task_id": "Huggingface--0"
+    },
+    {
+        "intent": "Use the Huggingface Inference API to generate a short story about a dragon and a wizard.",
+        "sites": [
+            "Huggingface"
+        ],
+        "start_url": "https://huggingface.co/",
+        "task_id": "Huggingface--1"
+    },
+    {
+        "intent": "Discover three new and popular open-source NLP models for language translation released in the past month on Huggingface.",
+        "sites": [
+            "Huggingface"
+        ],
+        "start_url": "https://huggingface.co/",
+        "task_id": "Huggingface--2"
+    },
+    {
+        "intent": "derivative of x^2 when x=5.6",
+        "sites": [
+            "Wolfram Alpha"
+        ],
+        "start_url": "https://www.wolframalpha.com/",
+        "task_id": "Wolfram Alpha--0"
+    },
+    {
+        "intent": "Give a constraint on the set of inequalities for the inner region of the pentagram.",
+        "sites": [
+            "Wolfram Alpha"
+        ],
+        "start_url": "https://www.wolframalpha.com/",
+        "task_id": "Wolfram Alpha--1"
+    },
+    {
+        "intent": "Calculate 3^71 and retain 5 significant figures in scientific notation.",
+        "sites": [
+            "Wolfram Alpha"
+        ],
+        "start_url": "https://www.wolframalpha.com/",
+        "task_id": "Wolfram Alpha--2"
+    }
+]

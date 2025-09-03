@@ -1,0 +1,40 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Invite {{collaborator_account_list}} as collaborator to {{repo}} repo",
+  "instantiation_dict": {
+    "collaborator_account_list": "Jakub K, Alex Dills, Alex Hutnik and Beno\u00eet Blanchon",
+    "repo": "my time tracking tool project"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/timeit/-/project_members",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "@lahwaacz",
+            "@V13Axel",
+            "@alexhutnik",
+            "@bblanchon"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 293,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 441,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Invite Jakub K, Alex Dills, Alex Hutnik and Beno\u00eet Blanchon as collaborator to my time tracking tool project repo",
+  "old_task_id": 570
+}

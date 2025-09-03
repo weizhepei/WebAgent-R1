@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Quill down your response as 'It's great to hear about varying perspectives! While the poster has had a positive experience, it sounds like you're coming around to giving the pizza a chance, despite being from the \"all pizza south of Philly sucks\" school of thought. It's encouraging to see that Il Radiccio's offering has piqued your interest. Perhaps giving it a try might exceed your expectations!' to the comment 'is this sarcasm Nope, I found it great. If you don\u2019t like it, not much I can do about that Good call! I'm glad you enjoyed it :D pretty sure they meant it sounded like sarcasm. not that they\u2019ve had it and not liked it As a stuck-up \u201call pizza south of philly sucks\u201d former New Yorker, I\u2019ll say it doesn\u2019t look great but honestly looks more promising to be not total crap than I\u2019ve seen in a while and it raised my eyebrows.. [deleted]' on the poster.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 75,
+  "storage_state": "./.auth/reddit_state.json"
+}

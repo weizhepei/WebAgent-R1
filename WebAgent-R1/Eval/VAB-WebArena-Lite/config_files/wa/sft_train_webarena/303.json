@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Add the line 'The series' unique narrative and stunning visuals have captivated audiences worldwide, making it a well-deserved winner of the Anime of the Year title.' to the main body of my '\u2018Cyberpunk: Edgerunners\u2019 Wins Anime of the Year at the 2023 Anime Awards' post",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 303,
+  "storage_state": "./.auth/reddit_state.json"
+}

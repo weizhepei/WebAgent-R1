@@ -1,0 +1,35 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Change the page title of \"{{old-heading}}\" page on my site to \"{{heading}}\".",
+  "instantiation_dict": {
+    "old-heading": "Privacy Policy",
+    "heading": "No privacy policy is needed in this dystopian world"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8083/admin/cms/page/edit/page_id/4/",
+        "locator": "document.querySelector('input[name=\"title\"').value",
+        "required_contents": {
+          "exact_match": "No privacy policy is needed in this dystopian world"
+        }
+      }
+    ]
+  },
+  "intent_template_id": 275,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 375,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Change the page title of \"Privacy Policy\" page on my site to \"No privacy policy is needed in this dystopian world\".",
+  "old_task_id": 489
+}

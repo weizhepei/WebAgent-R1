@@ -1,0 +1,48 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Re-post the image of {{content}} in this page to {{subreddit}} subreddit and note \"from /f/pics\"",
+  "instantiation_dict": {
+    "content": "Thanksgiving turkey",
+    "subreddit": "funny"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8080/f/funny",
+    "program_html": [
+      {
+        "url": "func:reddit_get_post_url('__last_url__')",
+        "locator": "document.querySelector('.submission__inner').outerText",
+        "required_contents": {
+          "must_include": [
+            "from /f/pics"
+          ]
+        }
+      },
+      {
+        "url": "func:reddit_get_post_url('__last_url__')",
+        "locator": "[...document.querySelector('.submission__inner').querySelectorAll('[href],[src]')].map(elem => elem.getAttribute('href') || elem.getAttribute('src')).join(' ')",
+        "required_contents": {
+          "must_include": [
+            "2e4fa0a328e653a97a7d07046291c298ef5b4e0d0c73a287f317ca86a8e8685f.jpg"
+          ]
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 11,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 480,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080/f/pics",
+  "intent": "Re-post the image of Thanksgiving turkey in this page to funny subreddit and note \"from /f/pics\"",
+  "old_task_id": 616
+}

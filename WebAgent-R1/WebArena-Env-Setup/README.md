@@ -1,0 +1,1 @@
+> :warning: **This is not an official WebArena / VisualWebArena repo. Use at your own risks. For official setup instructions visit [WebArena](https://github.com/web-arena-x/webarena/tree/main/environment_docker) / [VisualWebArena](https://github.com/web-arena-x/visualwebarena/tree/main/environment_docker).**

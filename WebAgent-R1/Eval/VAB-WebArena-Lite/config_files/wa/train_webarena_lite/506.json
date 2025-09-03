@@ -1,0 +1,39 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Post in {{subreddit}} forum about what could open-source LLMs help the corresponding field.",
+  "instantiation_dict": {
+    "subreddit": "technology"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8080/f/technology",
+    "program_html": [
+      {
+        "url": "func:reddit_get_post_url('__last_url__')",
+        "locator": "document.querySelector('.submission__inner').outerText",
+        "required_contents": {
+          "fuzzy_match": [
+            "open-source LLMs",
+            "help"
+          ]
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 19,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 506,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080",
+  "intent": "Post in technology forum about what could open-source LLMs help the corresponding field.",
+  "old_task_id": 647
+}

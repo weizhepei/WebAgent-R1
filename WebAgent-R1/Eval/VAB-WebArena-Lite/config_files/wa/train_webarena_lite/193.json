@@ -1,0 +1,33 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Who is the {{information}} of {{location}}",
+  "instantiation_dict": {
+    "location": "PIT airport",
+    "information": "operator"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "Allegheny County Airport Authority"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Allegheny County Airport Authority"
+  },
+  "intent_template_id": 501,
+  "sites": [
+    "map"
+  ],
+  "task_id": 193,
+  "storage_state": null,
+  "start_url": "http://localhost:9003",
+  "intent": "Who is the operator of PIT airport",
+  "old_task_id": 255
+}

@@ -1,0 +1,14 @@
+module: src.client.agents.HTTPAgent
+parameters:
+  url: https://api.openai.com/v1/chat/completions
+  headers:
+    Content-Type: application/json
+    Authorization: Bearer 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
+
+  body:
+    temperature: 0
+  prompter:
+    name: role_content_dict
+    args:
+      agent_role: assistant
+  return_format: "{response[choices][0][message][content]}"

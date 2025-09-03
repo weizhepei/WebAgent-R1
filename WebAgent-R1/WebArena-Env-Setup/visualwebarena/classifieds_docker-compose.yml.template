@@ -1,0 +1,26 @@
+version: '3.1'
+
+services:
+  web:
+    image: jykoh/classifieds:latest
+    ports:
+      - "CLASSIFIEDS_PORT:9980"
+    depends_on:
+      - db
+    container_name: classifieds
+    environment:
+      - CLASSIFIEDS=CLASSIFIEDS_URL/
+      - RESET_TOKEN=4b61655535e7ed388f0d40a93600254c
+  db:
+    image: mysql:8.1
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: osclass
+    volumes:
+      - ./mysql:/docker-entrypoint-initdb.d
+      - db_data:/var/lib/mysql
+    container_name: classifieds_db
+
+volumes:
+  db_data: {}

@@ -1,0 +1,32 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "List out reviewers, if exist, who mention about {{description}}",
+  "instantiation_dict": {
+    "description": "price being unfair"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "N/A"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "There is no reivew about price being unfair",
+    "reference_answer_raw_annotation": "N/A"
+  },
+  "intent_template_id": 222,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 19,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082/haflinger-men-s-wool-felt-open-back-slippers-beige-550-peat-us-7.html",
+  "intent": "List out reviewers, if exist, who mention about price being unfair",
+  "old_task_id": 24
+}

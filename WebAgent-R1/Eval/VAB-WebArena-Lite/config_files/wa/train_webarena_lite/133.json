@@ -1,0 +1,33 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Open my latest created issue that has {{keyword}} in its title to check if it is closed",
+  "instantiation_dict": {
+    "keyword": "better"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match",
+      "url_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "Yes, it is closed"
+      ]
+    },
+    "reference_url": "http://localhost:9001/a11yproject/a11yproject.com/-/issues/566",
+    "program_html": [],
+    "reference_answer_raw_annotation": "Closed",
+    "string_note": ""
+  },
+  "intent_template_id": 500,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 133,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Open my latest created issue that has better in its title to check if it is closed",
+  "old_task_id": 178
+}

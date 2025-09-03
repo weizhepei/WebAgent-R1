@@ -1,0 +1,33 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "What is the {{information}} of {{location}}",
+  "instantiation_dict": {
+    "location": "Carnegie art museum in pittsburgh",
+    "information": "website"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "http://web.cmoa.org/"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "http://web.cmoa.org/"
+  },
+  "intent_template_id": 501,
+  "sites": [
+    "map"
+  ],
+  "task_id": 194,
+  "storage_state": null,
+  "start_url": "http://localhost:9003",
+  "intent": "What is the website of Carnegie art museum in pittsburgh",
+  "old_task_id": 256
+}

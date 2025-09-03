@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Notate 'It's great to hear about your journey into PCB design and your interest in making a macro pad. If you're looking for a place to start with PCB design, I'd second the suggestion to check out the resources on Youtube. Additionally, the community around KiCad is quite supportive, so don't hesitate to reach out if you get stuck. As for the complexity of the PCB, it sounds like you're looking to create something sophisticated. Using an RP2040-based MCU is a solid choice for a modern and capable board. For beginners, starting with a simpler project and gradually increasing complexity can be helpful. As for the manufacturing service, while KiCad doesn't offer it directly, JLCPCB is indeed a known and reliable option. If you're looking for a visual guide, photos of the PCB can be quite insightful. Maybe the poster can share a picture in a follow-up comment? Lastly, regarding component choices, remember that forums and online communities can be invaluable for learning from others' experiences. Best of luck with your macropad project!' as a riposte to the comment 'I need to try making one too. With an Arduino that has usb C port instead. But first i need to learn pcb design and order one. I have soldering and programming skills. A 3d printer would be nice but I don't have one.... I do have some woodworking practice and my dad can help me here as well for a case. You should try it. It's not that hard. I didn't know how to design a PCB too. My soldering skills is really bad, you can see it in the picture. But learn enough to make a macropad is not really difficult. Simple little beautiful piece. Any recommendation for start with pcb design? I have soldering and programming skills but never felt comfortable in pcb design or anything electrical related :/ I used KiCad for designing the PCB. To start, you should learn the basic first. Youtube have a lot of that kind of video: Then you should learn how a keyboard works: After that you can get back to KiCad and make a keyboard PCB. At this time, the hardest part is wiring, you will learn when you do it. This is so cool, thanks for sharing! Once designed, how did you get your pcb made? Does KiCad offer a manufacturing service? Jlcpcb Oh dang, thanks for the link!! Jlcpcb is good. but I use a local manufacturing service. Are you living in VN or abroad? If you happen to live in VN can you share the name of the service you used? ai03 has a great   explaining the 101 of making a keyboard pcb amn using KiCad. I started designing my own PCB a couple weeks ago and it was very helpful. Understanding or knowning what components to use and why they have the value they have is the challenging part for me. Sometimes it's detailed in the documentation of the integrated circuit, but sometimes you just have to look for what others on internet did. Thank you! I will take a look for sure. Good resources! Thanks for sharing. I'm also making my first macropad, but already ordered the PCBs.. anyways the tips from those articles will be useful for the next one. I'd suggest KiCad, which is what OP used as well. It's free, and not really difficult and has a large community. For what it's worth, once you have the circuit designed the circuit layout software can often route all of the tracks for you within parameters that you define (eg. Key placement, track and pad dimensions, minimising wire bonds to bridge over tracks etc...) Digi-Key\u2019s   has a great tutorial series going through the whole process of PCB design with KiCAD. Highly recommend for someone just starting out. [deleted] Would you happen to have any photos of the PCB itself? I'm curious how complex it is for that many keys and encoders. it's super simple. Go for RP2040 based MCUs, everything else is extremely outdated by now. Edit: for example KB2040, Helios, Frood RP2040, at least here in the EU. Don\u2019t really have examples beyond the KB2040 for US. If you Design from scratch, of course your don\u2019t have to use the pro micro footprint [removed] Unfortunately, Aliexpress and BangGood Links are autofiltered by sitewide reddit spam filters. Sometimes, users will be flagged and suspended from the Reddit platform as a whole due to excessive linking to this or other autoflagged sites. Please keep this in mind when posting or commenting.' on the poster.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 1098,
+  "storage_state": "./.auth/reddit_state.json"
+}

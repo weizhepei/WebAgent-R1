@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Seek out a community platform frequented by those living in or around Allentown, and compose a new discussion topic. Entitle it 'Allentown Area Code Alert: Stay Updated with Local Changes' and in the message section, pen 'Have you heard about the recent update to the Allentown area code? Dive into the dialogue to keep abreast of the newest community news. Contribute your stories and tips on how to smoothly transition with these modifications.'. It's time to spark a dialogue on the impact of these area code changes on our daily lives!",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 386,
+  "storage_state": "./.auth/reddit_state.json"
+}

@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Here is my problem following: Hi there, I just received the Mini Acrylic Clapperboard which I ordered for $15.49. Unfortunately, it seems to have a crack on the side. I haven't even used it yet. Could you please guide me on how to go about getting a replacement? Thanks! Contact the owner of the shop to solve the problem. The shop requires the order id, the reason and the amount to refund in the message.",
+  "sites": [
+    "shopping"
+  ],
+  "start_url": "http://10.189.112.188:8082",
+  "task_id": 959,
+  "storage_state": "./.auth/shopping_state.json"
+}

@@ -1,0 +1,40 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Find a GitLab repository related to {{topic}} and make a Reddit post linking to it in a relevant subreddit",
+  "instantiation_dict": {
+    "topic": "metaseq"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8080/f/machinelearning |OR| http://localhost:8080/f/deeplearning",
+    "program_html": [
+      {
+        "url": "last",
+        "locator": "document.querySelector('.submission__inner').outerText",
+        "required_contents": {
+          "must_include": [
+            "metaseq",
+            "http://localhost:9001/root/metaseq"
+          ]
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 116,
+  "sites": [
+    "reddit",
+    "gitlab"
+  ],
+  "task_id": 536,
+  "storage_state": null,
+  "start_url": "http://localhost:8080",
+  "intent": "Find a GitLab repository related to metaseq and make a Reddit post linking to it in a relevant subreddit",
+  "old_task_id": 683
+}

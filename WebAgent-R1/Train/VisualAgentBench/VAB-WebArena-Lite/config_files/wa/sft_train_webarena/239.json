@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Add the line 'Robert Blake, an icon in the entertainment industry, left a complex legacy both on and off the screen.' to the main body of my 'Robert Blake Dies: Actor In \u2018Lost Highway\u2019 And \u2018In Cold Blood\u2019 Was 89, Beat Real-Life Murder Rap' post",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 239,
+  "storage_state": "./.auth/reddit_state.json"
+}

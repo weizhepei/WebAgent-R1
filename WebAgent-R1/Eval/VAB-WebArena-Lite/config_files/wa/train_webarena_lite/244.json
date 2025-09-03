@@ -1,0 +1,32 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "How much refund I should expect from my order canlled in {{time}}, including shipping fee",
+  "instantiation_dict": {
+    "time": "Feb 2023"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "406.53"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "406.53"
+  },
+  "intent_template_id": 160,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 244,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "How much refund I should expect from my order canlled in Feb 2023, including shipping fee",
+  "old_task_id": 320
+}

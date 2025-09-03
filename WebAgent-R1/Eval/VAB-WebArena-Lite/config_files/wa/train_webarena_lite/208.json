@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Search for \"{{keyword}}\"",
+  "instantiation_dict": {
+    "keyword": "usb wifi"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8082/catalogsearch/result/?q=usb+wifi",
+    "program_html": [],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 212,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 208,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "Search for \"usb wifi\"",
+  "old_task_id": 274
+}

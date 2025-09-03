@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Download the paper 'Dense Passage Retrieval for Open-Domain Question Answering'. How many formulas are in the article and which one is the loss function?",
+  "sites": [
+    "ArXiv"
+  ],
+  "start_url": "https://arxiv.org/",
+  "task_id": "ArXiv--18",
+  "storage_state": "./.auth/ArXiv_state.json"
+}

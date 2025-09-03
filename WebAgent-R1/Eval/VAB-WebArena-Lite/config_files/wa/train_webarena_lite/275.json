@@ -1,0 +1,33 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Show me the {{info}} for order number {{order_number}}.",
+  "instantiation_dict": {
+    "info": "order date",
+    "order_number": "148"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "1/29/2023"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "1/29/2023"
+  },
+  "intent_template_id": 206,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 275,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "Show me the order date for order number 148.",
+  "old_task_id": 359
+}

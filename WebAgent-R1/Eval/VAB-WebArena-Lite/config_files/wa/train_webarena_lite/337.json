@@ -1,0 +1,36 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Update the project site's title to \"{{title}}\"",
+  "instantiation_dict": {
+    "title": "Welcome to my site"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/gimmiethat.space/-/raw/main/index.html",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "<title>Welcome to my site</title>"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 308,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 337,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001/byteblaze/gimmiethat.space",
+  "intent": "Update the project site's title to \"Welcome to my site\"",
+  "old_task_id": 442
+}

@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "I need to plan a bike route that starts at Santa's Village, Jefferson and ends at Storm King Art Center, New Windsor, passing through Beaches. Could you help me figure out the biking distance from Santa's Village, Jefferson to Beaches and then from Beaches to Storm King Art Center, New Windsor?",
+  "sites": [
+    "map"
+  ],
+  "start_url": "http://10.189.112.188:443",
+  "task_id": 719,
+  "storage_state": null
+}

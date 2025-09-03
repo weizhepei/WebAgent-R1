@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Check Booking.com for a 3-star hotel or higher in Paris with a guest rating above 8.0 and available parking for dates February 20-23, 2024.",
+  "sites": [
+    "Booking"
+  ],
+  "start_url": "https://www.booking.com/",
+  "task_id": "Booking--26",
+  "storage_state": "./.auth/Booking_state.json"
+}

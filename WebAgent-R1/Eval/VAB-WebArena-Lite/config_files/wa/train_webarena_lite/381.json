@@ -1,0 +1,38 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Update order #{{order}} with the {{service}} tracking number {{tracking}}",
+  "instantiation_dict": {
+    "tracking": "8974568499",
+    "order": "299",
+    "service": "Federal Express"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8083/admin/sales/order/commentsHistory/order_id/299/active_tab/order_shipments/",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "Tracking number 8974568499 for Federal Express assigned"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 284,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 381,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Update order #299 with the Federal Express tracking number 8974568499",
+  "old_task_id": 496
+}

@@ -1,0 +1,38 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Invite {{collaborator_account_list}} as collaborator to {{repo}} repo",
+  "instantiation_dict": {
+    "collaborator_account_list": "Beno\u00eet and Abishek",
+    "repo": "my HTML5 markup extention"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/accessible-html-content-patterns/-/project_members",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "@bblanchon",
+            "@abisubramanya27"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 293,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 440,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Invite Beno\u00eet and Abishek as collaborator to my HTML5 markup extention repo",
+  "old_task_id": 569
+}

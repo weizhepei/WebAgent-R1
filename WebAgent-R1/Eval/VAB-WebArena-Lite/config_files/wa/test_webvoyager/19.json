@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Find a vegan lasagna recipe on Allrecipes that requires 10 ingredients or less and has feedback of more than 200 reviews. Provide a brief overview of the ingredient list and the total prep and cook time.",
+  "sites": [
+    "Allrecipes"
+  ],
+  "start_url": "https://www.allrecipes.com/",
+  "task_id": "Allrecipes--19",
+  "storage_state": "./.auth/Allrecipes_state.json"
+}

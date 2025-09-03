@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate the 10th post in the 'hot' pics subset, and leave a comment on it saying, 'Incredible! The photo really captures the essence of the character. It's no wonder Jamie Lee Curtis was able to bring the role to life so vividly in EEAAO. Simply inspiring!' This task involves finding the specified post and providing a pre-determined comment to express your thoughts on the imagery and its connection to the referenced performance.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 77,
+  "storage_state": "./.auth/reddit_state.json"
+}

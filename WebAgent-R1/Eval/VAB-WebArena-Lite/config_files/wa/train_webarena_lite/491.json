@@ -1,0 +1,39 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Create a discussion post about \"{{topic}}\" in a relevant subreddit and ask users for their opinions with the simple prompt, \"your opinion\"",
+  "instantiation_dict": {
+    "topic": "Fun thing to do in Pittsburgh"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8080/f/pittsburgh",
+    "program_html": [
+      {
+        "url": "func:reddit_get_post_url('__last_url__')",
+        "locator": "document.querySelector('.submission__inner').outerText",
+        "required_contents": {
+          "must_include": [
+            "your opinion",
+            "Fun thing to do in Pittsburgh |OR| Fun things to do in Pittsburgh"
+          ]
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 13,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 491,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080",
+  "intent": "Create a discussion post about \"Fun thing to do in Pittsburgh\" in a relevant subreddit and ask users for their opinions with the simple prompt, \"your opinion\"",
+  "old_task_id": 629
+}

@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate the poster who described their lunchtime walk around Newark Penn station, noting the warm weather, the long-awaited exploration of the water walkway, the presence of swinging benches, and the potential vendor space. Once found, comment on the poster with the following message: 'That sounds like a wonderful way to spend a lunch break! It's always nice to explore something new, especially when it's been right under your nose. The swinging benches sound like a charming touch. Maybe it's just a matter of time before others discover this hidden gem too.' This combined task ensures a seamless transition from searching for the specific poster to sharing your thoughts on their experience.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 871,
+  "storage_state": "./.auth/reddit_state.json"
+}

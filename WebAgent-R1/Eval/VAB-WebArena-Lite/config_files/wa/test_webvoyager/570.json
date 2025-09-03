@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Find information on the latest (as of today's date) pre-trained language model on Huggingface suitable for text classification and briefly describe its intended use case and architecture.",
+  "sites": [
+    "Huggingface"
+  ],
+  "start_url": "https://huggingface.co/",
+  "task_id": "Huggingface--16",
+  "storage_state": "./.auth/Huggingface_state.json"
+}

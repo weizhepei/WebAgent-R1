@@ -1,0 +1,33 @@
+{
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 626,
+  "require_login": true,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001/dehenne/awesome-visibility/-/graphs/master",
+  "geolocation": null,
+  "intent_template": "Tell me the {{attribute}} of the contributor who has the most commits to branch {{branch_name}}",
+  "instantiation_dict": {
+    "branch_name": "main",
+    "attribute": "number of followers"
+  },
+  "intent": "Tell me the number of followers of the contributor who has the most commits to branch main",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "0"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "0"
+  },
+  "intent_template_id": 316,
+  "old_task_id": 787
+}

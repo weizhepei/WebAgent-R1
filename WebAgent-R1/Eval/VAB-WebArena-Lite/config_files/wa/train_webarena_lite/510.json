@@ -1,0 +1,37 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Reply to {{position_description}} with my comment \"{{content_description}}\"",
+  "instantiation_dict": {
+    "position_description": "the post",
+    "content_description": "Yeah, pittsburgh traffic, you know..."
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8080/f/pittsburgh/45899/driving-in-pittsburgh-summed-up-by-one-traffic-sign",
+    "program_html": [
+      {
+        "url": "last",
+        "locator": "document.querySelector('.comment__body').outerText",
+        "required_contents": {
+          "exact_match": "Yeah, pittsburgh traffic, you know..."
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 23,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 510,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080/f/pittsburgh/45899/driving-in-pittsburgh-summed-up-by-one-traffic-sign",
+  "intent": "Reply to the post with my comment \"Yeah, pittsburgh traffic, you know...\"",
+  "old_task_id": 651
+}
