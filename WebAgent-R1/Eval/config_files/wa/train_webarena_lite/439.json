@@ -1,0 +1,38 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Invite {{collaborator_account_list}} as collaborator to {{repo}} repo",
+  "instantiation_dict": {
+    "collaborator_account_list": "Abishek and Vinta",
+    "repo": "a11yproject.com"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/a11yproject/a11yproject.com/-/project_members",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "@abisubramanya27",
+            "@vinta"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 293,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 439,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Invite Abishek and Vinta as collaborator to a11yproject.com repo",
+  "old_task_id": 568
+}

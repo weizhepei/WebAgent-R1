@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "I'm planning a bike ride and need to know two things: How far is it from Farmers' Museum to Paterson Great Falls National Historical Park if I'm cycling, and also the distance from Paterson Great Falls National Historical Park to Cape Cod National Seashore on a bike? Can you gather that information for me?",
+  "sites": [
+    "map"
+  ],
+  "start_url": "http://10.189.112.188:443",
+  "task_id": 901,
+  "storage_state": null
+}

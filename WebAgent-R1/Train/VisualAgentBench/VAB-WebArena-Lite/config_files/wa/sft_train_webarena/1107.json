@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Please submit your reply 'Those are some great tips for apartment hunting in Lakewood. It sounds like you have a really strategic approach. Filtering by price and square footage, along with using the map feature, can really help narrow down the search. And keeping an eye on high-quality pictures and the age of appliances are smart moves. Have you found that certain neighborhoods offer better amenities or a particular lifestyle that might be appealing to some renters?' to the comment 'There are lots of great places in Lakewood, of all different prices and sizes. There are also plenty of below-average places. It depends on what you are looking for; I use Zillow and set the filters for price and square footage. You can also use the map feature to search for availabilities in specific areas of Lakewood. That way you can compare prices in the same area/neighborhood. I always check for the posting to have lots of high-quality pictures. Updated or recently renovated is important to some people, especially when it comes to appliances. I've seen very old and dated apartments that are spacious for $800 per month and I've seen modern, new apartments that are tiny for $600 per month. You can save searches and have the website email you when a new posting that fits your filters appears, that way you can be on top of new places that you might like.' on the poster.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 1107,
+  "storage_state": "./.auth/reddit_state.json"
+}

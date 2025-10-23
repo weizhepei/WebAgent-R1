@@ -1,0 +1,40 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Draft a refund message via their \"contact us\" form for the {{product}} I bought {{time}}. It broke after three days of use. The shop requires the order id, the reason and the amount to refund in the message. Don't submit yet",
+  "instantiation_dict": {
+    "product": "phone case",
+    "time": "March 2023"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "last",
+        "locator": "document.querySelector('[title=\"What\u2019s on your mind?\"').value",
+        "required_contents": {
+          "fuzzy_match": [
+            "refund",
+            "it broke after three days of use",
+            "000000180",
+            "$12.99"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 154,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 407,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "Draft a refund message via their \"contact us\" form for the phone case I bought March 2023. It broke after three days of use. The shop requires the order id, the reason and the amount to refund in the message. Don't submit yet",
+  "old_task_id": 531
+}

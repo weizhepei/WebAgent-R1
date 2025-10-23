@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Search for a yoga mat on Amazon that is at least 6mm thick, non-slip, and eco-friendly. The price should be under $50.",
+  "sites": [
+    "Amazon"
+  ],
+  "start_url": "https://www.amazon.com/",
+  "task_id": "Amazon--28",
+  "storage_state": "./.auth/Amazon_state.json"
+}

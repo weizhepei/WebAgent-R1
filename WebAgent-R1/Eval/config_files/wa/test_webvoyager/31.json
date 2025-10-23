@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Search for a seafood paella recipe on Allrecipes with a minimum of 4.5 stars rating and at least 50 reviews. The recipe should include shrimp and mussels. Provide the ingredients, total time, and an overview of the preparation steps.",
+  "sites": [
+    "Allrecipes"
+  ],
+  "start_url": "https://www.allrecipes.com/",
+  "task_id": "Allrecipes--31",
+  "storage_state": "./.auth/Allrecipes_state.json"
+}

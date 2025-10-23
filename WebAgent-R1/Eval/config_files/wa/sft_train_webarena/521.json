@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate post number 8 in the 'most_commented and all' section of the food category, and leave a comment expressing your culinary appreciation: 'That looks like the ultimate comfort food! I can almost smell the deliciousness of that French toast and crispy bacon from here..homemade Chipolatas are a great touch too! MAKING me hungry!' Ensure your comment reflects your genuine interest in the content of the post found.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 521,
+  "storage_state": "./.auth/reddit_state.json"
+}

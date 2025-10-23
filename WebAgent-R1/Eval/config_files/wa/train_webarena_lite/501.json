@@ -1,0 +1,42 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Post a notice on a virtual meetup for {{interest}} enthusiasts on {{date}} in the {{subreddit}} subreddit",
+  "instantiation_dict": {
+    "interest": "book reading",
+    "date": "March 15th",
+    "subreddit": "r/books"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8080/f/books",
+    "program_html": [
+      {
+        "url": "func:reddit_get_post_url('__last_url__')",
+        "locator": "document.querySelector('.submission__inner').outerText",
+        "required_contents": {
+          "fuzzy_match": [
+            "book reading",
+            "March 15th",
+            "virtual meetup"
+          ]
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 16,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 501,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080",
+  "intent": "Post a notice on a virtual meetup for book reading enthusiasts on March 15th in the r/books subreddit",
+  "old_task_id": 640
+}

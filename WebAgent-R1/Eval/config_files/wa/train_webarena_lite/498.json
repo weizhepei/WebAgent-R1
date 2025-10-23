@@ -1,0 +1,40 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Post in the most appropriate subreddit and ask for recommendations for {{category}} products within a budget of {{price}}",
+  "instantiation_dict": {
+    "category": "sony headphones",
+    "price": "$500"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8080/f/headphones",
+    "program_html": [
+      {
+        "url": "func:reddit_get_post_url('__last_url__')",
+        "locator": "document.querySelector('.submission__inner').outerText",
+        "required_contents": {
+          "must_include": [
+            "500",
+            "sony headphone"
+          ]
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 6100,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 498,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080",
+  "intent": "Post in the most appropriate subreddit and ask for recommendations for sony headphones products within a budget of $500",
+  "old_task_id": 637
+}

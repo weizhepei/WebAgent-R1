@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "What are the first 7 bits of the SHA of the Bert's latest commit on GitHub, and what exactly was changed in that commit.",
+  "sites": [
+    "Google Search"
+  ],
+  "start_url": "https://www.google.com/",
+  "task_id": "Google Search--19",
+  "storage_state": "./.auth/Google Search_state.json"
+}

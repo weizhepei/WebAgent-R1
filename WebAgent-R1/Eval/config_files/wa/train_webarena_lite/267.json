@@ -1,0 +1,32 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "How many reviews our shop received {{time}}?",
+  "instantiation_dict": {
+    "time": "from the beginning of the shop"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "351"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "351"
+  },
+  "intent_template_id": 248,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 267,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "How many reviews our shop received from the beginning of the shop?",
+  "old_task_id": 347
+}

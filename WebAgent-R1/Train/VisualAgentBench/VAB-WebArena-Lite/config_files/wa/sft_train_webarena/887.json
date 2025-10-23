@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Carry out the action to enable status change on the product named Bardot Capri.",
+  "sites": [
+    "shopping_admin"
+  ],
+  "start_url": "http://10.189.112.188:8083/admin",
+  "task_id": 887,
+  "storage_state": "./.auth/shopping_admin_state.json"
+}

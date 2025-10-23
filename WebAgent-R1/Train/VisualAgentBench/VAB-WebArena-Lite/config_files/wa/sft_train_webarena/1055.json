@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Could you help me figure out how far Maryland State House is from Olde Mistick Village if I travel by foot and by bicycle? I'm currently staying at Maryland State House and looking to get to Olde Mistick Village, and I'd like to compare the distances for these two modes of transport. What are the respective distances for walking and biking from Maryland State House to Olde Mistick Village?",
+  "sites": [
+    "map"
+  ],
+  "start_url": "http://10.189.112.188:443",
+  "task_id": 1055,
+  "storage_state": null
+}

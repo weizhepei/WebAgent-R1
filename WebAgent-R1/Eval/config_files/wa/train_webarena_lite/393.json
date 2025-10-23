@@ -1,0 +1,36 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Add a {{product}} to my wish list.",
+  "instantiation_dict": {
+    "product": "toothpaste"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8082/wishlist/",
+        "locator": "document.querySelector('.products-grid.wishlist').outerText",
+        "required_contents": {
+          "must_include": [
+            "toothpaste"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 189,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 393,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "Add a toothpaste to my wish list.",
+  "old_task_id": 512
+}

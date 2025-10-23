@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Search for a portable air conditioner on Amazon suitable for a room size of 300 sq ft, with energy efficiency rating, and compare the prices of the top three search results.",
+  "sites": [
+    "Amazon"
+  ],
+  "start_url": "https://www.amazon.com/",
+  "task_id": "Amazon--33",
+  "storage_state": "./.auth/Amazon_state.json"
+}

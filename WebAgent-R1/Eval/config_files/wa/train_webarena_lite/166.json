@@ -1,0 +1,33 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Show me the walking distance from nearby hotels to {{location}} that take at most {{n}} minutes?",
+  "instantiation_dict": {
+    "location": "CMU, Pittsburgh",
+    "n": "5"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "N/A"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "There is no hotel near CMU that is within 5 minutes walking distance",
+    "reference_answer_raw_annotation": "N/A"
+  },
+  "intent_template_id": 41,
+  "sites": [
+    "map"
+  ],
+  "task_id": 166,
+  "storage_state": null,
+  "start_url": "http://localhost:9003",
+  "intent": "Show me the walking distance from nearby hotels to CMU, Pittsburgh that take at most 5 minutes?",
+  "old_task_id": 218
+}

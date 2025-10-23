@@ -1,0 +1,32 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Tell me who has made the most contributions, in terms of number of commits, to the {{repo}} project",
+  "instantiation_dict": {
+    "repo": "thoughtbot/administrate"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "Grayson Wright"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Grayson Wright"
+  },
+  "intent_template_id": 323,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 236,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Tell me who has made the most contributions, in terms of number of commits, to the thoughtbot/administrate project",
+  "old_task_id": 309
+}

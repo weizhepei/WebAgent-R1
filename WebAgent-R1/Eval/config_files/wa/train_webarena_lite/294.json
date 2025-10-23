@@ -1,0 +1,36 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Post \"{{content}}\" for the merge request related to {{mr}} in {{repo}} project",
+  "instantiation_dict": {
+    "mr": "semantic HTML post",
+    "repo": "a11yproject/a11yproject.com",
+    "content": "lgtm"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:9001/a11yproject/a11yproject.com/-/merge_requests/1531",
+    "program_html": [
+      {
+        "url": "last",
+        "locator": "document.querySelector('[id=\"notes-list\"').lastElementChild.querySelector('.timeline-discussion-body').outerText",
+        "required_contents": {
+          "must_include": "lgtm"
+        }
+      }
+    ]
+  },
+  "intent_template_id": 348,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 294,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Post \"lgtm\" for the merge request related to semantic HTML post in a11yproject/a11yproject.com project",
+  "old_task_id": 390
+}

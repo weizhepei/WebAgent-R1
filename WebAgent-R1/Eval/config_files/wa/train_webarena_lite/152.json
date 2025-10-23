@@ -1,0 +1,33 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Get the {{attribute}} of the {{status}} order",
+  "instantiation_dict": {
+    "attribute": "billing name",
+    "status": "oldest complete"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "John Lee"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "John Lee"
+  },
+  "intent_template_id": 366,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 152,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Get the billing name of the oldest complete order",
+  "old_task_id": 200
+}

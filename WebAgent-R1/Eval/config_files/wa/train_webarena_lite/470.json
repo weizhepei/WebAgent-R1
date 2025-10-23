@@ -1,0 +1,38 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Post my question, \"{{question}}\", in a subreddit where I'm likely to get an answer",
+  "instantiation_dict": {
+    "question": "what is the SOTA web navigation agent repo"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8080/f/deeplearning |OR| http://localhost:8080/f/MachineLearning |OR| http://localhost:8080/f/singularity",
+    "program_html": [
+      {
+        "url": "func:reddit_get_post_url('__last_url__')",
+        "locator": "document.querySelector('.submission__inner').outerText",
+        "required_contents": {
+          "must_include": [
+            "what is the SOTA web navigation agent repo"
+          ]
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 3765,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 470,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080",
+  "intent": "Post my question, \"what is the SOTA web navigation agent repo\", in a subreddit where I'm likely to get an answer",
+  "old_task_id": 604
+}

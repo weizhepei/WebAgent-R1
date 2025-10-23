@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Head over to a community that's all about iPhones and start a conversation with the title \"Capture the Adventure: iPhone Photography in the Colorado Mountains.\" Share insights and ask for tips on how to best use an iPhone to document the awe-inspiring moments one might encounter while exploring the majestic landscapes of the Colorado mountains.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 213,
+  "storage_state": "./.auth/reddit_state.json"
+}

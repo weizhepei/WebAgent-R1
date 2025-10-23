@@ -1,0 +1,50 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Create a new forum named {{name}}, with a description of {{description}}, and include {{sidebar_list}} in the sidebar?",
+  "instantiation_dict": {
+    "name": "PlantsForCatParents",
+    "description": "Cat parents & plant lovers",
+    "sidebar_list": "['Cat friendly', 'Local vendors', 'Promotion', 'Toxic plants!']"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8080/f/PlantsForCatParents/edit",
+        "locator": "document.querySelector(\"#forum_description\").value",
+        "required_contents": {
+          "must_include": [
+            "Cat parents & plant lovers"
+          ]
+        }
+      },
+      {
+        "url": "http://localhost:8080/f/PlantsForCatParents/edit",
+        "locator": "document.querySelector(\"#forum_sidebar\").value",
+        "required_contents": {
+          "must_include": [
+            "Cat friendly",
+            "Local vendors",
+            "Promotion",
+            "Toxic plants!"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 7,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 451,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080",
+  "intent": "Create a new forum named PlantsForCatParents, with a description of Cat parents & plant lovers, and include ['Cat friendly', 'Local vendors', 'Promotion', 'Toxic plants!'] in the sidebar?",
+  "old_task_id": 583
+}

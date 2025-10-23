@@ -1,0 +1,36 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Go to the merge request on {{topic}} I have to review, find if the author of the merge request responded at the end, and reply \"Thank you\" if he did. Otherwise remind him with a simple @.",
+  "instantiation_dict": {
+    "topic": "wcag"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/a11yproject/a11yproject.com/-/merge_requests/1270",
+        "locator": "document.querySelector('[id=\"notes-list\"').lastElementChild.querySelector('.timeline-discussion-body').outerText",
+        "required_contents": {
+          "must_include": [
+            "Thank you"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 360,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 316,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Go to the merge request on wcag I have to review, find if the author of the merge request responded at the end, and reply \"Thank you\" if he did. Otherwise remind him with a simple @.",
+  "old_task_id": 416
+}

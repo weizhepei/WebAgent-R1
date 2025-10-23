@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate the 8th post in the 'active' section of the movies category, and leave a comment expressing your excitement by saying, 'Can't wait for the new Spider-Verse short film! Sony Pictures Animation always delivers an incredible visual experience. Excited to see what they have in store for us this time!' The comment should be a direct response to the content presented in that post, ensuring a seamless transition from finding the post to engaging with it through your personalized viewpoint.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 440,
+  "storage_state": "./.auth/reddit_state.json"
+}

@@ -1,0 +1,59 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Show me the way from {{location}} to the home stadium of {{sport_team}} {{time}}",
+  "instantiation_dict": {
+    "location": "Carnegie Mellon University",
+    "sport_team": "NYC NBA team",
+    "time": ""
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "last",
+        "locator": "document.querySelector('[name=\"route_from\"').value",
+        "required_contents": {
+          "must_include": [
+            "Carnegie Mellon University",
+            "Pittsburgh"
+          ]
+        }
+      },
+      {
+        "url": "last",
+        "locator": "document.querySelector('[name=\"route_to\"').value",
+        "required_contents": {
+          "must_include": [
+            "Madison Square Garden",
+            "Pennsylvania Plaza",
+            "Manhattan",
+            "New York"
+          ]
+        }
+      },
+      {
+        "url": "last",
+        "locator": "document.querySelector(\"div#content select.routing_engines\").selectedIndex",
+        "required_contents": {
+          "exact_match": "1"
+        }
+      }
+    ]
+  },
+  "intent_template_id": 94,
+  "sites": [
+    "wikipedia",
+    "map"
+  ],
+  "task_id": 585,
+  "storage_state": null,
+  "start_url": "http://localhost:9003",
+  "intent": "Show me the way from Carnegie Mellon University to the home stadium of NYC NBA team ",
+  "old_task_id": 740
+}

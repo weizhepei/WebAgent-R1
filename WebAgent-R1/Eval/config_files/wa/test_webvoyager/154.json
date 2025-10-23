@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Browse the ArXiv store and let me know how many different types of merchandise are available.",
+  "sites": [
+    "ArXiv"
+  ],
+  "start_url": "https://arxiv.org/",
+  "task_id": "ArXiv--25",
+  "storage_state": "./.auth/ArXiv_state.json"
+}

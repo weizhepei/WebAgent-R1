@@ -1,0 +1,32 @@
+{
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 258,
+  "require_login": true,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "geolocation": null,
+  "intent_template": "Tell me when I last ordered my {{description}}?",
+  "instantiation_dict": {
+    "description": "toothpaste"
+  },
+  "intent": "Tell me when I last ordered my toothpaste?",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "December 4th 2022"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "December 4th 2022"
+  },
+  "intent_template_id": 169,
+  "old_task_id": 338
+}

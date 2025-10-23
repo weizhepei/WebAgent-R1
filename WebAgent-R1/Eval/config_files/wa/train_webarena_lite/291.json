@@ -1,0 +1,37 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "List the customer names who thinks EYZUTAK phone cases are of good looking",
+  "instantiation_dict": {},
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "Lisa Lee",
+        "MH",
+        "Misba009",
+        "Amanda",
+        "N Randall",
+        "Amazon Customer",
+        "Cally",
+        "Bethany Robertson"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Lisa Lee, MH, Misba009, Amanda, N Randall, Amazon Customer, Cally, Bethany Robertson"
+  },
+  "intent_template_id": 666,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 291,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "List the customer names who thinks EYZUTAK phone cases are of good looking",
+  "old_task_id": 385
+}

@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Start a discussion in a local online gathering spot for those who live in or are interested in the Lakewood area. Title your thread 'AT&T Fiber Expansion Updates: What It Means for Lakewood Residents' and provide insights with a message that says 'Uncover the latest on the AT&T Fiber expansion in our neighborhood. Let's discuss how this could affect us as residents or those thinking of becoming part of our community.'",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 90,
+  "storage_state": "./.auth/reddit_state.json"
+}

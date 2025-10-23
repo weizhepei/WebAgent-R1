@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate the poster that features the message 'My Uncle, back in the 1980\u2019s when he was in the Air Force. He retired after 32 years of service.', and in the comments section of the same poster, post the following message: 'What a majestic photo! Your uncle's dedication and service are truly inspiring. It's amazing to see the legacy of the Air Force through the years.' This combined task ensures a seamless transition from finding the specific poster to sharing your thoughts and appreciation in the comments section, maintaining the logical connection between the two actions.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 84,
+  "storage_state": "./.auth/reddit_state.json"
+}

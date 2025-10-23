@@ -1,0 +1,38 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Open the thread of a trending post on the forum \"{{subreddit}}\" and subscribe.",
+  "instantiation_dict": {
+    "subreddit": "space"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8080/f/space",
+    "program_html": [
+      {
+        "url": "http://localhost:8080/",
+        "locator": "document.querySelector(\"#sidebar > section\").outerText",
+        "required_contents": {
+          "must_include": [
+            "space"
+          ]
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 4,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 463,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080",
+  "intent": "Open the thread of a trending post on the forum \"space\" and subscribe.",
+  "old_task_id": 595
+}

@@ -1,0 +1,32 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "What is the zip code of {{place}}?",
+  "instantiation_dict": {
+    "place": "Carnegie Mellon University"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "15213"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "15213"
+  },
+  "intent_template_id": 70,
+  "sites": [
+    "map"
+  ],
+  "task_id": 55,
+  "storage_state": null,
+  "start_url": "http://localhost:9003",
+  "intent": "What is the zip code of Carnegie Mellon University?",
+  "old_task_id": 70
+}

@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Check the Horse Racing results in Sport section, browse all the games that took place yesterday and see which one had the highest number of runners.",
+  "sites": [
+    "BBC News"
+  ],
+  "start_url": "https://www.bbc.com/news/",
+  "task_id": "BBC News--39",
+  "storage_state": "./.auth/BBC News_state.json"
+}

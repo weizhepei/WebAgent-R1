@@ -1,0 +1,39 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Post in {{subreddit}} forum about what could large language models help the corresponding field.",
+  "instantiation_dict": {
+    "subreddit": "dataisbeautiful"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8080/f/dataisbeautiful",
+    "program_html": [
+      {
+        "url": "func:reddit_get_post_url('__last_url__')",
+        "locator": "document.querySelector('.submission__inner').outerText",
+        "required_contents": {
+          "fuzzy_match": [
+            "large language models",
+            "help"
+          ]
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 19,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 507,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080",
+  "intent": "Post in dataisbeautiful forum about what could large language models help the corresponding field.",
+  "old_task_id": 648
+}

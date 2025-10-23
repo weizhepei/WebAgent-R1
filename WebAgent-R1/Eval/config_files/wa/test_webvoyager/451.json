@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Search for a one-way flight from Mumbai to Vancouver on February 28, 2024, filtering the results to show only 1-stop flights.",
+  "sites": [
+    "Google Flights"
+  ],
+  "start_url": "https://www.google.com/travel/flights/",
+  "task_id": "Google Flights--23",
+  "storage_state": "./.auth/Google Flights_state.json"
+}

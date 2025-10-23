@@ -1,0 +1,33 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Measure distance between {{location/address_1}} and {{location/address_2}} by walking",
+  "instantiation_dict": {
+    "location/address_1": "Carnegie Mellon University",
+    "location/address_2": "UPMC Shadyside"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "1.7km"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "1.7km"
+  },
+  "intent_template_id": 58,
+  "sites": [
+    "map"
+  ],
+  "task_id": 279,
+  "storage_state": null,
+  "start_url": "http://localhost:9003",
+  "intent": "Measure distance between Carnegie Mellon University and UPMC Shadyside by walking",
+  "old_task_id": 364
+}

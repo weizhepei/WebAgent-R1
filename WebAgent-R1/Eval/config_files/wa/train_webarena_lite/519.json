@@ -1,0 +1,39 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Open an issue to {{issue}} in {{repo}}.",
+  "instantiation_dict": {
+    "repo": "aem-hacker",
+    "issue": "report experiencing \"OSError: [Errno 98] Address already in use\" during executions"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:9001/0ang3el/aem-hacker/-/issues",
+    "program_html": [
+      {
+        "url": "last",
+        "locator": "document.querySelector('.detail-page-description').outerText",
+        "required_contents": {
+          "must_include": [
+            "OSError: [Errno 98] Address already in use"
+          ]
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 328,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 519,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Open an issue to report experiencing \"OSError: [Errno 98] Address already in use\" during executions in aem-hacker.",
+  "old_task_id": 662
+}

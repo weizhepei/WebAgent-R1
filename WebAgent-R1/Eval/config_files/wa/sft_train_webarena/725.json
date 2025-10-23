@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate the ninth post labeled as 'hot' within the consoles category, and comment on it with the following message: 'What a steal! You got a bargain there! I wish I could find deals like that on Facebook Marketplace too. Enjoy your new stuff!' This task involves finding the specified post and smoothly transitioning into expressing your enthusiasm and well wishes on the poster's findings.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 725,
+  "storage_state": "./.auth/reddit_state.json"
+}

@@ -1,0 +1,54 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Submit a request to merge {{source_branch}} branch into {{target_branch}} branch, assign {{reviewer}} as the reviewer",
+  "instantiation_dict": {
+    "source_branch": "dialog-component",
+    "target_branch": "dialog",
+    "reviewer": "Carol"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:9001/primer/design/-/merge_requests",
+    "program_html": [
+      {
+        "url": "last",
+        "locator": "document.querySelectorAll(\".detail-page-description > a.gl-font-monospace\")[1].outerText",
+        "required_contents": {
+          "exact_match": "dialog"
+        }
+      },
+      {
+        "url": "last",
+        "locator": "document.querySelectorAll(\".detail-page-description > a.gl-font-monospace\")[0].outerText",
+        "required_contents": {
+          "exact_match": "dialog-component"
+        }
+      },
+      {
+        "url": "last",
+        "locator": "document.querySelector('.block.reviewer').outerText",
+        "required_contents": {
+          "must_include": [
+            "Carol |OR| Caroline Stewart"
+          ]
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 335,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 523,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001/primer/design",
+  "intent": "Submit a request to merge dialog-component branch into dialog branch, assign Carol as the reviewer",
+  "old_task_id": 666
+}

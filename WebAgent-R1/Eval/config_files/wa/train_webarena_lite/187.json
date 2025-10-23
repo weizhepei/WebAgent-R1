@@ -1,0 +1,33 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Show me the {{information}} of the customer who is the most unhappy with {{product}}",
+  "instantiation_dict": {
+    "information": "name",
+    "product": "Chloe tank"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "Teofila"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Teofila"
+  },
+  "intent_template_id": 244,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 187,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Show me the name of the customer who is the most unhappy with Chloe tank",
+  "old_task_id": 246
+}

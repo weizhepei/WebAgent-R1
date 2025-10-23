@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate the poster that reads 'I made a makeup table for my girlfriend's birthday out of an old bar cabinet' and leave a comment saying 'That's a brilliant upcycling idea! Your girlfriend must have been thrilled to receive such a thoughtful and personalized gift. Way to go!' to express your admiration for the creative upcycling project shared in the poster.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 1044,
+  "storage_state": "./.auth/reddit_state.json"
+}

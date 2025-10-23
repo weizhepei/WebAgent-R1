@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Find the article \"What is climate change? A really simple guide\" and use it to answer what human activities are causing climate change.",
+  "sites": [
+    "BBC News"
+  ],
+  "start_url": "https://www.bbc.com/news/",
+  "task_id": "BBC News--5",
+  "storage_state": "./.auth/BBC News_state.json"
+}

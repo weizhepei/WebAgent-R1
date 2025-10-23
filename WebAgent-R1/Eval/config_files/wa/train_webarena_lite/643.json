@@ -1,0 +1,54 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Submit a merge request for {{source_branch}} branch to be merged into {{target_branch}} branch, assign {{reviewer}} as the reviewer",
+  "instantiation_dict": {
+    "source_branch": "a11yproject.com/redesign",
+    "target_branch": "markdown-figure-block",
+    "reviewer": "myself"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:9001/a11yproject/a11yproject.com/-/merge_requests",
+    "program_html": [
+      {
+        "url": "last",
+        "locator": "document.querySelectorAll(\".detail-page-description > a.gl-font-monospace\")[0].outerText",
+        "required_contents": {
+          "exact_match": "redesign"
+        }
+      },
+      {
+        "url": "last",
+        "locator": "document.querySelectorAll(\".detail-page-description > a.gl-font-monospace\")[1].outerText",
+        "required_contents": {
+          "exact_match": "feature/markdown-figure-block"
+        }
+      },
+      {
+        "url": "last",
+        "locator": "document.querySelector('.block.reviewer').outerText",
+        "required_contents": {
+          "fuzzy_match": [
+            "Byte Blaze"
+          ]
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 335,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 643,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Submit a merge request for a11yproject.com/redesign branch to be merged into markdown-figure-block branch, assign myself as the reviewer",
+  "old_task_id": 806
+}

@@ -1,0 +1,72 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Fork {{repo}}.",
+  "instantiation_dict": {
+    "repo": "all source repos from Akilesh Kannan"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/SimCache",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "SimCache"
+          ]
+        }
+      },
+      {
+        "url": "http://localhost:9001/byteblaze/dots",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "dots"
+          ]
+        }
+      },
+      {
+        "url": "http://localhost:9001/byteblaze/CacheEval",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "CacheEval"
+          ]
+        }
+      },
+      {
+        "url": "http://localhost:9001/byteblaze/nvidia-patch",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "404"
+          ]
+        }
+      },
+      {
+        "url": "http://localhost:9001/byteblaze/viewgrades-scraper",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "404"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 352,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 301,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Fork all source repos from Akilesh Kannan",
+  "old_task_id": 398
+}

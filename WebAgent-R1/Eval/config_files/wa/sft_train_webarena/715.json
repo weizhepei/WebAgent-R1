@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Look into the merge request on 404 link and see if the author has commented at the end. If they have, leave a 'Thank you' note; if not, send a polite reminder with an '@' mention.",
+  "sites": [
+    "gitlab"
+  ],
+  "start_url": "http://10.189.112.188:9001",
+  "task_id": 715,
+  "storage_state": "./.auth/gitlab_state.json"
+}

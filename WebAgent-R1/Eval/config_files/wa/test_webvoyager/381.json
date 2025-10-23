@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Check Los Angeles Lakers Stats 2023-24, calculate Anthony Davis' games played (GP) percentage, tell me if there are other players with the same games played percentage as Anthony Davis.",
+  "sites": [
+    "ESPN"
+  ],
+  "start_url": "https://www.espn.com/",
+  "task_id": "ESPN--38",
+  "storage_state": "./.auth/ESPN_state.json"
+}

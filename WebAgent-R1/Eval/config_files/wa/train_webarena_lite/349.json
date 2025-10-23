@@ -1,0 +1,34 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Disable {{product}} from the site, they are facing some quality issues.",
+  "instantiation_dict": {
+    "product": "Cora Pant"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8083/admin/catalog/product/edit/id/1840/",
+        "locator": "document.querySelector('[name=\"product[status]\"').value",
+        "required_contents": {
+          "exact_match": "2"
+        }
+      }
+    ]
+  },
+  "intent_template_id": 242,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 349,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Disable Cora Pant from the site, they are facing some quality issues.",
+  "old_task_id": 456
+}

@@ -1,0 +1,40 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "create a new group \"{{name}}\" with members {{members}}",
+  "instantiation_dict": {
+    "name": "n-lab",
+    "members": "patou, egpast, westurner, jontutcher"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/groups/n-lab/-/group_members",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "@patou",
+            "@egpast",
+            "@westurner",
+            "@jontutcher"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 600,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 636,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "create a new group \"n-lab\" with members patou, egpast, westurner, jontutcher",
+  "old_task_id": 799
+}

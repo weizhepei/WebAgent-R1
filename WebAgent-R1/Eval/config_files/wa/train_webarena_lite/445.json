@@ -1,0 +1,49 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "I recently moved, my address is {{address}}, update my information on OneStopShopping accordingly",
+  "instantiation_dict": {
+    "address": "222 Redwood Rise, Suite 300, Seattle, WA, 98101"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8082/customer/address",
+        "locator": "document.querySelector(\".box.box-address-shipping > .box-content\").outerText",
+        "required_contents": {
+          "must_include": [
+            "222 Redwood Rise",
+            "Suite 300",
+            "Seattle, Washington, 98101"
+          ]
+        }
+      },
+      {
+        "url": "http://localhost:8082/customer/address",
+        "locator": "document.querySelector(\".box.box-address-billing > .box-content\").outerText",
+        "required_contents": {
+          "must_include": [
+            "222 Redwood Rise",
+            "Suite 300",
+            "Seattle, Washington, 98101"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 165,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 445,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "I recently moved, my address is 222 Redwood Rise, Suite 300, Seattle, WA, 98101, update my information on OneStopShopping accordingly",
+  "old_task_id": 575
+}

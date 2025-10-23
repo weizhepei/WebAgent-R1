@@ -1,0 +1,35 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Among the top {{number}} post in \"{{subreddit}}\" forum, {{description}}",
+  "instantiation_dict": {
+    "number": "10",
+    "subreddit": "books",
+    "description": "show me the book names from posts that recommand a single book"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "A Christmas Carol",
+        "The Hobbit"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "A Christmas Carol, The Hobbit"
+  },
+  "intent_template_id": 17,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 53,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080",
+  "intent": "Among the top 10 post in \"books\" forum, show me the book names from posts that recommand a single book",
+  "old_task_id": 67
+}

@@ -1,0 +1,32 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "What are the key aspects that the customers don't like about {{product}}",
+  "instantiation_dict": {
+    "product": "Zing Jump Rope"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "It is hard to find the right size. Won't last long"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "It is hard to find the right size. Won't last long"
+  },
+  "intent_template_id": 249,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 163,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "What are the key aspects that the customers don't like about Zing Jump Rope",
+  "old_task_id": 214
+}

@@ -1,0 +1,28 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Find the {{space}} around {{location}}",
+  "instantiation_dict": {
+    "location": "CMU main campus",
+    "space": "hotel"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:9003/search?query=hotels%20near%20carnegie%20mellon%20university",
+    "program_html": [],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 59,
+  "sites": [
+    "map"
+  ],
+  "task_id": 289,
+  "storage_state": null,
+  "start_url": "http://localhost:9003",
+  "intent": "Find the hotel around CMU main campus",
+  "old_task_id": 379
+}

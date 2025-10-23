@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate the seventh post in the 'hot'-tagged ColumbiaMD category, and leave a comment stating: 'This is an amazing opportunity for Howard public high school students! Getting the chance to take unlimited community college classes for free is a game-changer. Kudos to the school for providing such a great resource for students to further their education.' This comment should be a response to the poster, effectively connecting your insights with the content of the post.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 932,
+  "storage_state": "./.auth/reddit_state.json"
+}

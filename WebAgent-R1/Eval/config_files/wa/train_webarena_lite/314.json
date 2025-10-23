@@ -1,0 +1,36 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Make the LICENSE of {{repo}} to one that mandates all copies and derivative works to be under the same license",
+  "instantiation_dict": {
+    "repo": "byteblaze/a11y-syntax-highlighting"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/a11y-syntax-highlighting/-/blob/main/LICENSE",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "GENERAL PUBLIC LICENSE"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 355,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 314,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Make the LICENSE of byteblaze/a11y-syntax-highlighting to one that mandates all copies and derivative works to be under the same license",
+  "old_task_id": 413
+}

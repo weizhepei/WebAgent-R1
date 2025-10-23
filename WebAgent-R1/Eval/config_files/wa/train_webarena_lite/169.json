@@ -1,0 +1,32 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "I am at CMU Pittsburgh, how long it takes to drive to the nearest {{location}}",
+  "instantiation_dict": {
+    "location": "Mcdonald's"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "4min"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "4min"
+  },
+  "intent_template_id": 35,
+  "sites": [
+    "map"
+  ],
+  "task_id": 169,
+  "storage_state": null,
+  "start_url": "http://localhost:9003",
+  "intent": "I am at CMU Pittsburgh, how long it takes to drive to the nearest Mcdonald's",
+  "old_task_id": 223
+}

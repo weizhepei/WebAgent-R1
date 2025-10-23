@@ -1,0 +1,31 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Give me the {{Attribute}} of the products that have {{N}} units left",
+  "instantiation_dict": {
+    "Attribute": "name",
+    "N": "0"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "Sinbad Fitness Tank"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Sinbad Fitness Tank"
+  },
+  "intent_template_id": 368,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 138,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Give me the name of the products that have 0 units left",
+  "old_task_id": 184
+}

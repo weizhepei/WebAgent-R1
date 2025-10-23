@@ -1,0 +1,33 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "How long does it take to walk from {{start}} to {{end}}?",
+  "instantiation_dict": {
+    "start": "Carnegie Mellon University",
+    "end": "Univ of Pittsburgh"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "25 min"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "25 min"
+  },
+  "intent_template_id": 68,
+  "sites": [
+    "map"
+  ],
+  "task_id": 43,
+  "storage_state": null,
+  "start_url": "http://localhost:9003",
+  "intent": "How long does it take to walk from Carnegie Mellon University to Univ of Pittsburgh?",
+  "old_task_id": 54
+}

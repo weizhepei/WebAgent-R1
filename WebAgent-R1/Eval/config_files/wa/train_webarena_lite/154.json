@@ -1,0 +1,34 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Get the {{attribute}} of the {{status}} order",
+  "instantiation_dict": {
+    "attribute": "purchase date and order id",
+    "status": "most recent pending"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "order id: 000000299",
+        "purchase date: May 31, 2023"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "000000299, May 31, 2023, 2:55:09 AM"
+  },
+  "intent_template_id": 366,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 154,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Get the purchase date and order id of the most recent pending order",
+  "old_task_id": 203
+}

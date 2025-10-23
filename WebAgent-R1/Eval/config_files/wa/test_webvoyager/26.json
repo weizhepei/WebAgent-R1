@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Search for a high-protein vegetarian chili recipe on Allrecipes that has at least 50 reviews and a rating of 4 stars or higher. Provide the ingredient list, cooking time, and a brief description of the cooking steps.",
+  "sites": [
+    "Allrecipes"
+  ],
+  "start_url": "https://www.allrecipes.com/",
+  "task_id": "Allrecipes--26",
+  "storage_state": "./.auth/Allrecipes_state.json"
+}

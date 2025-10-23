@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Currently situated in Acadia National Park on Mount Desert Island, I'm looking to head over to the closest Supermarket. Could you inform me about the exact distance? Additionally, I'd appreciate it if you could let me know the estimated travel time required to reach Supermarket from Acadia National Park on Mount Desert Island.",
+  "sites": [
+    "map"
+  ],
+  "start_url": "http://10.189.112.188:443",
+  "task_id": 779,
+  "storage_state": null
+}

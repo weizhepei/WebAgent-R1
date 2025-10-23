@@ -1,0 +1,33 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Show me the customers who have expressed dissatisfaction with {{product}}?",
+  "instantiation_dict": {
+    "product": "Olivia zip jacket"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "Emma Lopez",
+        "Seam Miller"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Emma Lopez, Seam Miller"
+  },
+  "intent_template_id": 245,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 86,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Show me the customers who have expressed dissatisfaction with Olivia zip jacket?",
+  "old_task_id": 113
+}

@@ -1,0 +1,28 @@
+{
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 249,
+  "require_login": true,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "geolocation": null,
+  "intent_template": "Show me the \"{{product}}\" listings by {{sorting_order}}.",
+  "instantiation_dict": {
+    "product": "iphone 12 phone case",
+    "sorting_order": "name alphabetically"
+  },
+  "intent": "Show me the \"iphone 12 phone case\" listings by name alphabetically.",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://localhost:8082/catalogsearch/result/index/?q=%20iphone%2012%20phone%20case&product_list_order=name",
+    "program_html": [],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 208,
+  "old_task_id": 327
+}

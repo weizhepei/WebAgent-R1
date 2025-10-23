@@ -1,0 +1,42 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Create a repo named {{name}} with {{topics}} in a README file",
+  "instantiation_dict": {
+    "name": "nolan_academy_awards",
+    "topics": "movies that won Academy Awards by Christopher Nolan"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/nolan_academy_awards/-/raw/main/README.md",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "The Dark Knight",
+            "Inception",
+            "Interstellar",
+            "Dunkirk",
+            "Tenet"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 87,
+  "sites": [
+    "gitlab",
+    "wikipedia"
+  ],
+  "task_id": 433,
+  "storage_state": null,
+  "start_url": "http://localhost:9001",
+  "intent": "Create a repo named nolan_academy_awards with movies that won Academy Awards by Christopher Nolan in a README file",
+  "old_task_id": 560
+}

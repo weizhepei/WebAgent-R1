@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Find the result of the latest basketball game between the Los Angeles Lakers and the Boston Celtics, including the final score and top scorer from the match.",
+  "sites": [
+    "ESPN"
+  ],
+  "start_url": "https://www.espn.com/",
+  "task_id": "ESPN--6",
+  "storage_state": "./.auth/ESPN_state.json"
+}

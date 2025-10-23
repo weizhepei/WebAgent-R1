@@ -1,0 +1,36 @@
+{
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 614,
+  "require_login": true,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "geolocation": null,
+  "intent_template": "Delete all {{review_type}}",
+  "instantiation_dict": {
+    "review_type": "reviews from the scammer Arden"
+  },
+  "intent": "Delete all reviews from the scammer Arden",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8083/admin/review/product/edit/id/51",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "Rating isn't Available"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 246,
+  "old_task_id": 775
+}

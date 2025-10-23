@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate a C++ project on GitHub that has been recently updated in the last week and has at least 500 stars, then describe its main purpose.",
+  "sites": [
+    "GitHub"
+  ],
+  "start_url": "https://github.com/",
+  "task_id": "GitHub--17",
+  "storage_state": "./.auth/GitHub_state.json"
+}

@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Check out the NHL Standings 2023-24 on ESPN to see which teams are at the top and which are at the bottom in Eastern and Western Conference. What about the situation in Division.",
+  "sites": [
+    "ESPN"
+  ],
+  "start_url": "https://www.espn.com/",
+  "task_id": "ESPN--30",
+  "storage_state": "./.auth/ESPN_state.json"
+}

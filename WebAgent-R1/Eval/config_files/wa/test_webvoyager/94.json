@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Identify and list the specifications of the latest iPad model released by Apple, including its storage options, processor type, and display features.",
+  "sites": [
+    "Apple"
+  ],
+  "start_url": "https://www.apple.com/",
+  "task_id": "Apple--8",
+  "storage_state": "./.auth/Apple_state.json"
+}

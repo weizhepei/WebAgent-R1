@@ -1,0 +1,36 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Set up a new, empty repository with the name {{project_name}}?",
+  "instantiation_dict": {
+    "project_name": "awesome_webagent"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/awesome_webagent",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "awesome_webagent"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 292,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 367,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Set up a new, empty repository with the name awesome_webagent?",
+  "old_task_id": 479
+}

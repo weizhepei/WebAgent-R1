@@ -1,0 +1,43 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Create a folder named {{directory}} in {{gitlab_repo}} repo. Within it, create a file named urls.txt that contains the URLs of the 5 most recent posts from the {{subreddit}}?",
+  "instantiation_dict": {
+    "directory": "news",
+    "gitlab_repo": "gimmiethat.space",
+    "subreddit": "news related subreddits"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/gimmiethat.space/-/raw/main/news/urls.txt",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "http://localhost:8080/f/news/129905/ohio-man-charged-for-using-molotov-cocktails-to-attack",
+            "http://localhost:8080/f/news/129904/in-a-loss-for-fox-news-judge-allows-dominion-s-defamation",
+            "http://localhost:8080/f/news/129903/theater-group-sues-to-block-tennessee-s-new-anti-drag-law",
+            "http://localhost:8080/f/news/129902/andrew-tate-released-from-jail-in-romania-and-placed-under",
+            "http://localhost:8080/f/news/129901/rare-high-risk-storm-alert-issued-for-parts-of-midwest-and"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 84,
+  "sites": [
+    "gitlab",
+    "reddit"
+  ],
+  "task_id": 426,
+  "storage_state": null,
+  "start_url": "http://localhost:9001",
+  "intent": "Create a folder named news in gimmiethat.space repo. Within it, create a file named urls.txt that contains the URLs of the 5 most recent posts from the news related subreddits?",
+  "old_task_id": 553
+}

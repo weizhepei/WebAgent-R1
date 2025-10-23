@@ -1,0 +1,34 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Change my reddit bio to \"{{content}}\"",
+  "instantiation_dict": {
+    "content": "I am a robot"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8080/user/MarvelsGrantMan136",
+        "locator": "document.querySelector(\".user-bio__biography\").outerText",
+        "required_contents": {
+          "exact_match": "I am a robot"
+        }
+      }
+    ]
+  },
+  "intent_template_id": 6,
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 302,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://localhost:8080",
+  "intent": "Change my reddit bio to \"I am a robot\"",
+  "old_task_id": 399
+}

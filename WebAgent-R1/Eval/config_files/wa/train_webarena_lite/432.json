@@ -1,0 +1,41 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Create a repo named {{name}} with {{topics}} in a README file",
+  "instantiation_dict": {
+    "name": "nolan_followers",
+    "topics": "career timeline of Christopher Nolan"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/nolan_followers/-/raw/main/README.md",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "1993\u20132003: Early career and breakthrough",
+            "2003\u20132013: Widespread recognition",
+            "2014\u20132019: Established Hollywood auteur",
+            "2020\u2013present"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 87,
+  "sites": [
+    "gitlab",
+    "wikipedia"
+  ],
+  "task_id": 432,
+  "storage_state": null,
+  "start_url": "http://localhost:9001",
+  "intent": "Create a repo named nolan_followers with career timeline of Christopher Nolan in a README file",
+  "old_task_id": 559
+}

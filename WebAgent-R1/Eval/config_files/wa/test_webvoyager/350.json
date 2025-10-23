@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Retrieve the final score and a brief summary of the latest NBA game played by the Los Angeles Lakers as reported on ESPN.",
+  "sites": [
+    "ESPN"
+  ],
+  "start_url": "https://www.espn.com/",
+  "task_id": "ESPN--7",
+  "storage_state": "./.auth/ESPN_state.json"
+}

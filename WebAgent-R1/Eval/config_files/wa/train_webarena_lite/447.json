@@ -1,0 +1,47 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Add the following users to repo {{repo}} as {{role}}: {{user_list}}",
+  "instantiation_dict": {
+    "repo": "millennials-to-snake-people",
+    "role": "reporter",
+    "user_list": "['yjlou', 'a11yproject']"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/millennials-to-snake-people/-/project_members",
+        "locator": "func:gitlab_get_project_memeber_role(__page__, 'yjlou')",
+        "required_contents": {
+          "must_include": [
+            "Reporter"
+          ]
+        }
+      },
+      {
+        "url": "http://localhost:9001/byteblaze/millennials-to-snake-people/-/project_members",
+        "locator": "func:gitlab_get_project_memeber_role(__page__, 'a11yproject')",
+        "required_contents": {
+          "must_include": [
+            "Reporter"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 351,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 447,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Add the following users to repo millennials-to-snake-people as reporter: ['yjlou', 'a11yproject']",
+  "old_task_id": 578
+}

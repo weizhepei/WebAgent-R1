@@ -1,0 +1,47 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Make the LICENSE of {{repo}} to MIT license.",
+  "instantiation_dict": {
+    "repo": "gimmiethat.space and dotfiles"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/gimmiethat.space/-/blob/main/LICENSE",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "MIT license",
+            "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
+          ]
+        }
+      },
+      {
+        "url": "http://localhost:9001/byteblaze/dotfiles/-/blob/main/LICENSE",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "MIT license",
+            "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 355,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 581,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Make the LICENSE of gimmiethat.space and dotfiles to MIT license.",
+  "old_task_id": 736
+}

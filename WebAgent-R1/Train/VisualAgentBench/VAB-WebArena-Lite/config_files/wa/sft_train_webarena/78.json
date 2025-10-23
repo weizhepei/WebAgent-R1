@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Due to the Juggernaut.Case IMPCT Mount Platform's compatibility issues with RAM Mount Hardware, feeling fragile and having a surface prone to peeling, along with a more complex installation process than anticipated, I am inclined to rate it poorly and caution against it as a dependable vehicle mounting option in my upcoming review.",
+  "sites": [
+    "shopping"
+  ],
+  "start_url": "http://10.189.112.188:8082",
+  "task_id": 78,
+  "storage_state": "./.auth/shopping_state.json"
+}

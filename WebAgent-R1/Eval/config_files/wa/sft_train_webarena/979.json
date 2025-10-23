@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Find a subreddit where music enthusiasts gather to share and discuss their passion, and start a thread titled 'In Memory of the Influential: Remembering D.H. Peligro'. Spark a dialogue about the enduring impact of legendary figures in music, focusing on the contributions of D.H. Peligro, and invite others to reflect on how such artists have shaped the industry.",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 979,
+  "storage_state": "./.auth/reddit_state.json"
+}

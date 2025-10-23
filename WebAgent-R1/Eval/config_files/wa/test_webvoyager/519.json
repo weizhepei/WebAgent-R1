@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Find the video on YouTube: 'Oscars 2023: Must-See Moments!'. Tell me who the first comment displayed under that video belongs to, and how many thumbs up and replies it has.",
+  "sites": [
+    "Google Search"
+  ],
+  "start_url": "https://www.google.com/",
+  "task_id": "Google Search--8",
+  "storage_state": "./.auth/Google Search_state.json"
+}

@@ -1,0 +1,32 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Which customer has completed the {{quantifier}} number of orders in the entire history?",
+  "instantiation_dict": {
+    "quantifier": "most"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "Jane Smith"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Jane Smith"
+  },
+  "intent_template_id": 276,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 49,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Which customer has completed the most number of orders in the entire history?",
+  "old_task_id": 62
+}

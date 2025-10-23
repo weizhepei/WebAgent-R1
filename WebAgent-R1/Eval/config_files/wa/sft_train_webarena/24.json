@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Inspect the details of the 10th order with the highest transaction amount, where the Grand Total (Base) ranges from 30.1 to 286.5, and the Purchase Date spans from 01/01/2022 to 03/31/2023.",
+  "sites": [
+    "shopping_admin"
+  ],
+  "start_url": "http://10.189.112.188:8083/admin",
+  "task_id": 24,
+  "storage_state": "./.auth/shopping_admin_state.json"
+}

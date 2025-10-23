@@ -1,0 +1,32 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Tell me the total cost of my latest {{status}} order?",
+  "instantiation_dict": {
+    "status": "non-cancelled"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "754.99"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "754.99"
+  },
+  "intent_template_id": 214,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 145,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "Tell me the total cost of my latest non-cancelled order?",
+  "old_task_id": 192
+}

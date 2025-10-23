@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "You are generally satisfied with the LEMY Professional 2 in 1 Facial Steamer, liking its 5X LED magnifying mirror and facial steaming feature, yet you find the device rather loud and wish the manual was more straightforward. Nonetheless, you deem it a worthy investment and suggest it for both salon professionals and personal use, planning to share your insights in a product review.",
+  "sites": [
+    "shopping"
+  ],
+  "start_url": "http://10.189.112.188:8082",
+  "task_id": 562,
+  "storage_state": "./.auth/shopping_state.json"
+}

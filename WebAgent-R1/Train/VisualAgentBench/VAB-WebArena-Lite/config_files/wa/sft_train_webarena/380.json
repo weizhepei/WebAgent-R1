@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Edit my post on ''Willow' Creator Jon Kasdan Says Series Isn\u2019t Cancelled And Volume II Is Planned' by adding a line to the body that says 'The fan anticipation for Volume II is palpable, with Jon Kasdan's recent reassurance further fueling the excitement.'",
+  "sites": [
+    "reddit"
+  ],
+  "start_url": "http://10.189.112.188:8080",
+  "task_id": 380,
+  "storage_state": "./.auth/reddit_state.json"
+}

@@ -1,0 +1,33 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Show me the {{info}} for order number {{order_number}}.",
+  "instantiation_dict": {
+    "info": "shipping method",
+    "order_number": "187"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": [
+        "Flat Rate - Fixed"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Flat Rate - Fixed"
+  },
+  "intent_template_id": 206,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 274,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "Show me the shipping method for order number 187.",
+  "old_task_id": 358
+}

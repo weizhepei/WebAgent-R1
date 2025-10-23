@@ -1,0 +1,64 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "{{action}} the price of {{config}} by {{amount}}",
+  "instantiation_dict": {
+    "amount": "$5",
+    "action": "Reduce",
+    "config": "green Hollister backyard sweater in all size"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:8083/admin/catalog/product/edit/id/120/",
+        "locator": "document.querySelector('[name=\"product[price]\"').value",
+        "required_contents": {
+          "exact_match": "47.00"
+        }
+      },
+      {
+        "url": "http://localhost:8083/admin/catalog/product/edit/id/117/",
+        "locator": "document.querySelector('[name=\"product[price]\"').value",
+        "required_contents": {
+          "exact_match": "47.00"
+        }
+      },
+      {
+        "url": "http://localhost:8083/admin/catalog/product/edit/id/114/",
+        "locator": "document.querySelector('[name=\"product[price]\"').value",
+        "required_contents": {
+          "exact_match": "47.00"
+        }
+      },
+      {
+        "url": "http://localhost:8083/admin/catalog/product/edit/id/111/",
+        "locator": "document.querySelector('[name=\"product[price]\"').value",
+        "required_contents": {
+          "exact_match": "47.00"
+        }
+      },
+      {
+        "url": "http://localhost:8083/admin/catalog/product/edit/id/123/",
+        "locator": "document.querySelector('[name=\"product[price]\"').value",
+        "required_contents": {
+          "exact_match": "47.00"
+        }
+      }
+    ]
+  },
+  "intent_template_id": 742,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 616,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Reduce the price of green Hollister backyard sweater in all size by $5",
+  "old_task_id": 777
+}

@@ -1,0 +1,36 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Fork {{repo}}.",
+  "instantiation_dict": {
+    "repo": "MetaSeq"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/metaseq",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "metaseq"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 352,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 300,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Fork MetaSeq.",
+  "old_task_id": 397
+}

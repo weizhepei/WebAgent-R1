@@ -1,0 +1,34 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "set the homepage URL on my GitLab profile to {{url}}",
+  "instantiation_dict": {
+    "url": "www.byteblaze.com"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze",
+        "locator": "document.querySelector('.profile-header [itemprop=\"url\"]').outerText",
+        "required_contents": {
+          "exact_match": "www.byteblaze.com"
+        }
+      }
+    ]
+  },
+  "intent_template_id": 331,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 345,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "set the homepage URL on my GitLab profile to www.byteblaze.com",
+  "old_task_id": 451
+}

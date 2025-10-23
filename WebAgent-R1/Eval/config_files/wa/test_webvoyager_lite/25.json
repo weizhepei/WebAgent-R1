@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Check the latest articles on ESPN for updates on any trades that occurred in the NBA within the past 2 days.",
+  "sites": [
+    "ESPN"
+  ],
+  "start_url": "https://www.espn.com/",
+  "task_id": "ESPN--1",
+  "storage_state": "./.auth/ESPN_state.json"
+}

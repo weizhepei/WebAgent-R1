@@ -1,0 +1,36 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Set up a new, empty repository with the name {{project_name}}?",
+  "instantiation_dict": {
+    "project_name": "chatgpt_plugin"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://localhost:9001/byteblaze/chatgpt_plugin",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "chatgpt_plugin"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 292,
+  "sites": [
+    "gitlab"
+  ],
+  "task_id": 364,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "http://localhost:9001",
+  "intent": "Set up a new, empty repository with the name chatgpt_plugin?",
+  "old_task_id": 475
+}

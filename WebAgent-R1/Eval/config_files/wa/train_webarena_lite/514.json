@@ -1,0 +1,42 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Fill the \"contact us\" form in the site for a refund on the {{product}} I bought, stating that it broke after just three days of use. Also, ensure to include the order number #{{order_id}} and the product SKU. Don't submit yet, I will check.",
+  "instantiation_dict": {
+    "product": "remote controller",
+    "order_id": "180"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8082/contact",
+    "program_html": [
+      {
+        "url": "last",
+        "locator": "document.querySelector('[title=\"What\u2019s on your mind?\"').value",
+        "required_contents": {
+          "fuzzy_match": [
+            "refund",
+            "it broke after three days of use",
+            "180",
+            "B0041MSF2S"
+          ]
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 153,
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 514,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://localhost:8082",
+  "intent": "Fill the \"contact us\" form in the site for a refund on the remote controller I bought, stating that it broke after just three days of use. Also, ensure to include the order number #180 and the product SKU. Don't submit yet, I will check.",
+  "old_task_id": 656
+}

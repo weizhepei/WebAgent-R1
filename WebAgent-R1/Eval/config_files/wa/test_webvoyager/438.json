@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Locate the cheapest round-trip flights from New York to Tokyo leaving on January 25, 2024, and returning on February 15, 2024.",
+  "sites": [
+    "Google Flights"
+  ],
+  "start_url": "https://www.google.com/travel/flights/",
+  "task_id": "Google Flights--10",
+  "storage_state": "./.auth/Google Flights_state.json"
+}

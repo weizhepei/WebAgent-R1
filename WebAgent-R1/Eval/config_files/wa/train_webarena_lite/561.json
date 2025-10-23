@@ -1,0 +1,45 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "Create a {{type}} report from {{start_date}} to {{end_date}}",
+  "instantiation_dict": {
+    "type": "coupons",
+    "start_date": "05/01/2021",
+    "end_date": "05/15/2023"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match",
+      "program_html"
+    ],
+    "reference_answers": {},
+    "reference_url": "http://localhost:8083/admin/reports/report_sales/coupons/",
+    "program_html": [
+      {
+        "url": "last",
+        "locator": "document.querySelector('[id=\"sales_report_from\"').value",
+        "required_contents": {
+          "exact_match": "5/1/21"
+        }
+      },
+      {
+        "url": "last",
+        "locator": "document.querySelector('[id=\"sales_report_to\"').value",
+        "required_contents": {
+          "exact_match": "5/15/23"
+        }
+      }
+    ],
+    "url_note": "GOLD in PRED"
+  },
+  "intent_template_id": 271,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_id": 561,
+  "storage_state": "./.auth/shopping_admin_state.json",
+  "start_url": "http://localhost:8083/admin",
+  "intent": "Create a coupons report from 05/01/2021 to 05/15/2023",
+  "old_task_id": 712
+}

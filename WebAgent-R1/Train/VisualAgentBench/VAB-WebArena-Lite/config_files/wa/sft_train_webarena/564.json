@@ -1,0 +1,27 @@
+{
+  "require_login": true,
+  "geolocation": null,
+  "intent_template": "",
+  "instantiation_dict": {},
+  "require_reset": null,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "N/A"
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "intent_template_id": 0,
+  "intent": "Could you calculate the travel distances between Olde Mistick Village and Cape Cod Museum of Natural History, Brewster for me? I'm curious about how far it is whether I decide to walk or drive. What are the respective distances when traveling by foot and by car from Olde Mistick Village to Cape Cod Museum of Natural History, Brewster?",
+  "sites": [
+    "map"
+  ],
+  "start_url": "http://10.189.112.188:443",
+  "task_id": 564,
+  "storage_state": null
+}
